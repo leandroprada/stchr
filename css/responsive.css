@@ -398,4 +398,9 @@
   .float-right {
     float: left !important;
   }
+
+ .curso {
+  width: 100%;
+  text-align: center;
+	}
 }

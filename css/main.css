@@ -2388,3 +2388,8 @@ footer .menu li a:hover {
   font-size: 18px;
   margin-bottom: 0;
 }
+
+.curso  {
+  max-width: 100%;
+  text-align: center;
+	}
