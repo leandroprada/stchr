@@ -3,7 +3,7 @@
 $_SESSION['username'] = $_POST['username'];
 
 
-if ($_SESSION['login'] = "validated") {
+if ($_SESSION['login'] == "validated") {
 	
 	echo 'Usuario registrado';}
 
