@@ -4,13 +4,10 @@ $_SESSION['username'] = $_POST['username'];
 
 
 if ($_SESSION['login'] == "validated") {
-	
-	echo 'Usuario registrado';}
-
+	include "./content/content_logged_in.php";
+	}
 else {
-	
-echo 'Usuario no registrado';
-	
-}
+	include "./content/content_not_logged_in.php";
+	}
 
 ?>
