@@ -39,7 +39,7 @@ require 'dbconn.inc.php';
 			   header("Location: ../resources.php?userlogon=true");
 		  }
 		  else {
-			  header("Location: ../index.php?error=sqlcouldnotexecute");
+			  header("Location: ../resources.php?error=sqlcouldnotexecute");
 		  }
 
 	  }

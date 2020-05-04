@@ -1,6 +1,6 @@
 <?php
  session_start();
- 
+ $username = Session['username']
  
  ?>
  
@@ -78,6 +78,12 @@
               </li>  -->
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link page-scroll" href="./resources.php">Contenido Exclusivo</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link page-scroll" href="./login/logout.php">Logout</a>
               </li>
             </ul>
             </div>
