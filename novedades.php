@@ -114,16 +114,36 @@
         </div>
 
         <!-- Portfolio Recent Projects -->
-        <div id="portfolio" class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		   <div id="portfolio" class="row">
+         <!-- 
+		 Este DIV para curso de Seleccion IT (NO AVANZADO).
+		 <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/novedades/selecciónITAbril2020.jpeg" alt="" />
+                <img src="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg" alt="" />
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/selecciónITAbril2020.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        <div id="portfolio" class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix print">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
