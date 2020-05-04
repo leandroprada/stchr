@@ -4,11 +4,11 @@ $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
 
 
-if ($_SESSION['login'] == "validated") {
-	include "./content/content_logged_in.php";
+if (isset($_SESSION['login'])) {
+	include "./content/content_index.php";
 	}
 else {
-	include "./content/content_not_logged_in.php";
+	include "./content/content_index_not_logged_in.php";
 	}
 
 ?>

@@ -36,10 +36,10 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				
-			   header("Location: ../resources.php?userlogon=true");
+			   header("Location: ../index.php?userlogon=true");
 		  }
 		  else {
-			  header("Location: ../resources.php?error=sqlcouldnotexecute");
+			  header("Location: ../index.php?error=sqlcouldnotexecute");
 		  }
 
 	  }
