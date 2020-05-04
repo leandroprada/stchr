@@ -3,8 +3,10 @@
 
 require 'dbconn.inc.php';
 
- $email = $_POST['email'];
+ $email = $_POST['username'];
+ $username = $_POST['username'];
  $password = $_POST['password'];
+ 
  $sql = "SELECT email FROM users WHERE email=?";
  
  //this code is to get the user name
