@@ -42,7 +42,7 @@
     <header id="slider-area">
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="img/stc2.png" alt=""></a>
+          <a class="navbar-brand" href="index.php"><img src="img/stc2.png" alt=""></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
@@ -62,10 +62,10 @@
                 <a class="nav-link page-scroll" href="#team">El Equipo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="./novedades.html">Novedades</a>
+                <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
               </li>
 			  <li class="nav-item">
-                <a class="nav-link page-scroll" href="./postulate.html">Postulate</a>
+                <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
