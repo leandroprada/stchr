@@ -3,12 +3,12 @@
 
 require 'dbconn.inc.php';
 
- $username = $_POST['username'];
+ $email = $_POST['email'];
  $password = $_POST['password'];
- $sql = "SELECT username FROM users WHERE username=?";
+ $sql = "SELECT email FROM users WHERE email=?";
  
  //this code is to get the user name
-	$query1 = "SELECT name FROM users WHERE username=";
+	$query1 = "SELECT name FROM users WHERE email=";
 	$query2 = '"'.$username.'";';
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
@@ -26,13 +26,13 @@ require 'dbconn.inc.php';
 	  else {
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
-		  mysqli_stmt_bind_param ($stmt, "s", $username);
+		  mysqli_stmt_bind_param ($stmt, "s", $email);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
-				$_SESSION['username'] = $username;
+				$_SESSION['email'] = $email;
 				
 			   header("Location: ../resources.php?userlogon=true");
 		  }
