@@ -1,7 +1,5 @@
 <?php
- session_start();
- $username = Session['username']
- 
+ session_start(); 
  ?>
  
  
