@@ -10,7 +10,7 @@ if ($_SESSION['userloggedemail'] != NULL) {
 	$firstname = $_SESSION['userloggedemail']
 }
 
-var_dump ($firsname);
+var_dump ($firstname);
 
 if ($_SESSION['login'] == "validated") {
 	include "./content/resources/content_logged_in.php";
