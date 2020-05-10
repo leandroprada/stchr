@@ -50,7 +50,7 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				$_SESSION['username'] = $username;
-				$_SESSION['userloggedemail'] = $userloggedname;
+				$_SESSION['userloggedemail'] = $userloggedemail;
 				$_SESSION['userloggedname'] = $userloggedname;
 				
 			   header("Location: ../resources.php?userlogon=true");
