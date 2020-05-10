@@ -41,7 +41,7 @@ $_SESSION['username'] = $_POST['username'];
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
         <div class="container">
 		<ul>
-          <li><a class="navbar-brand" href="../index.php"><img src="../img/stc2.png" alt=""></a></li>
+          <li><a class="navbar-brand" href="../index.php"><img src="../img/stc2.png" alt="" style="height:1em"></a></li>
 		</ul>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
