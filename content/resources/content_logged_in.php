@@ -53,16 +53,6 @@ $firstname = $_SESSION['firstname'];
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="./index.php">Inicio</a>
               </li>
-              
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
-              </li>
-			  <li class="nav-item">
-                <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
-              </li>
 			  <li class="nav-item">
                 <a class="nav-link page-scroll" href="./resources.php">Contenido Exclusivo</a>
               </li>
