@@ -1,6 +1,20 @@
 <?php
  session_start();
- $userloggedname = $_SESSION['userloggedname'];
+
+if (isset($_SESSION['userloggedname']) {
+	
+	$firstname = $_SESSION['userloggedname']
+}
+
+elseif (isset($_SESSION['userloggedmail']) {
+	
+	$firstname = $_SESSION['userloggedmail']
+}
+
+else {
+	
+	$firstname = "Usuario";
+}
  
  ?>
  
@@ -83,7 +97,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header"> 
-          <h2 class="section-title">Hola <?php echo $userloggedname;?>!</h2>
+          <h2 class="section-title">Hola <?php echo $firstname;?>!</h2>
           <span>Exclusivo</span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
