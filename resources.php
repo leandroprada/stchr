@@ -3,6 +3,8 @@
 $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
 
+
+var_dump ($_SESSION);
 if ($_SESSION['userloggedname'] != NULL) {
 	$firstname = $_SESSION['userloggedname'];
 }
