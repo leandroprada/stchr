@@ -8,11 +8,9 @@ require 'dbconn.inc.php';
  $password = $_POST['password'];
  
  $sql = "INSERT INTO users (email, password) 
-  			  VALUES(?,?)";
+  			  VALUES($username,$password)";
 
-  	$_SESSION['username'] = $username;
-  	$_SESSION['success'] = "You are now logged in";
- 
+  	
  $stmt = mysqli_stmt_init($conn);
 
  if (!mysqli_stmt_prepare($stmt, $sql)){
