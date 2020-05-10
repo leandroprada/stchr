@@ -4,10 +4,11 @@ $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
 
 if ($_SESSION['userloggedname'] != NULL) {
-	$firstname = $_SESSION['userloggedname']
+	$firstname = $_SESSION['userloggedname'];
 }
+
 if ($_SESSION['userloggedemail'] != NULL) {
-	$firstname = $_SESSION['userloggedemail']
+	$firstname = $_SESSION['userloggedemail'];
 }
 
 var_dump ($firstname);
