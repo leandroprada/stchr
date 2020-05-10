@@ -1,6 +1,6 @@
 <?php
  session_start();
- $username = $_SESSION['name'];
+ $userloggedname = $_SESSION['name'];
  
  ?>
  
@@ -83,7 +83,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header"> 
-          <h2 class="section-title">Hola <?php echo $_SESSION['name'];?>!</h2>
+          <h2 class="section-title">Hola <?php echo $userloggedname;?>!</h2>
           <span>Exclusivo</span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
