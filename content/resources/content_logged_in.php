@@ -52,30 +52,13 @@
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#slider-area">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">Servicios</a>
-              </li>
-             <!--  <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features">Features</a>
-              </li>     -->
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Cursos</a>
-              </li>
-            <!--   <li class="nav-item">
-                <a class="nav-link page-scroll" href="#pricing">Pricing</a>
-              </li>  -->
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#team">El Equipo</a>
-              </li>
+              
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
               </li>
 			  <li class="nav-item">
                 <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
               </li>
-             <!--  <li class="nav-item">
-                <a class="nav-link page-scroll" href="#blog">Blog</a>
-              </li>  -->
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
               </li>
@@ -100,7 +83,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Hola <?php $username;?>!</h2>
+          <h2 class="section-title">Hola <?php echo $username;?>!</h2>
           <span>Exclusivo</span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
