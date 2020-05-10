@@ -82,8 +82,8 @@
 	<!-- Services Section Start -->
     <section id="services" class="section">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Hola <?php echo "nombre".$_SESSION['name']."usuario".$username.$_SESSION['username'];?>!</h2>
+        <div class="section-header"> 
+          <h2 class="section-title">Hola <?php echo $_SESSION['name'];?>!</h2>
           <span>Exclusivo</span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
