@@ -7,7 +7,8 @@ require 'dbconn.inc.php';
  $username = $_POST['username'];
  $password = $_POST['password'];
  
- $sql = "SELECT email FROM users WHERE email=?";
+ $sql = "SELECT email FROM users WHERE email=? OR username=?";
+ 
  
  //this code is to get the user name
 	$query1 = "SELECT name FROM users WHERE email=";
