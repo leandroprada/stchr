@@ -18,7 +18,7 @@ require 'dbconn.inc.php';
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
-	$userloggedname = $row[0];
+	$userloggedemail = $row[0];
   }
   
   if (isset($username)) {
@@ -50,9 +50,10 @@ require 'dbconn.inc.php';
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
 				$_SESSION['username'] = $username;
+				$_SESSION['userloggedemail'] = $userloggedname;
 				$_SESSION['userloggedname'] = $userloggedname;
 				
-			   header("Location: ../index.php?userlogon=true");
+			   header("Location: ../resources.php?userlogon=true");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");
