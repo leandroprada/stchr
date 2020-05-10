@@ -123,8 +123,8 @@
               <p>Para leer cuando tenés alguna duda.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.6s">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="" >
               <div class="icon color-4">
                 <i class="lni-layers"></i>
               </div>
@@ -132,13 +132,13 @@
               <p>Debajo algunos de nuestro amigos.</p>
 			  <ul>
 				<li>
-					<a href="https://www.leoprada.com.ar" target="_blank" class="btn btn-common btn-effect">LAP desarrollo de sitios web.</a>
+					<a href="https://www.leoprada.com.ar" target="_blank" class="">LAP desarrollo de sitios web.</a>
 				</li>
 				<li>
-					<a href="https://www.duhire.com/" target="_blank" class="btn btn-common btn-effect">DuHire App de Reclutamiento</a>
+					<a href="https://www.duhire.com/" target="_blank" class="">DuHire App de Reclutamiento</a>
 				</li>
 				<li>
-					<a href="https://www.empleosit.com.ar/" target="_blank" class="btn btn-common btn-effect">EmpleosIT Ofertas de trabajo en Informática y Tecnología</a>
+					<a href="https://www.empleosit.com.ar/" target="_blank" class="">EmpleosIT Ofertas de trabajo en Informática y Tecnología</a>
 				</li>
 			  </ul>	
 			</div>
@@ -149,22 +149,7 @@
     <!-- Services Section End -->
 
     
-	<div>
-	      <h4>Links &Uacute;tiles.</h4>
-              <p>Debajo algunos de nuestro amigos.</p>
-			  <ul>
-				<li>
-					<a href="https://www.leoprada.com.ar" target="_blank" class="">LAP desarrollo de sitios web.</a>
-				</li>
-				<li>
-					<a href="https://www.duhire.com/" target="_blank" class="btn"> DuHire App de Reclutamiento</a>
-				</li>
-				<li>
-					<a href="https://www.empleosit.com.ar/" target="_blank" class="btn btn-common btn-effect">EmpleosIT Ofertas de trabajo en Informática y Tecnología</a>
-				</li>
-			  </ul>	
-	</div>
-	
+		
 	
     <!-- Start Video promo Section -->
   <section class="video-promo section">
