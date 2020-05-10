@@ -141,10 +141,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12">
-		    <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>
+		    
               <div class="video-promo-content text-center">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/c1YSfFaMve4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              
+					<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/c1YSfFaMve4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>
