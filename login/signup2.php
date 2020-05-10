@@ -8,7 +8,7 @@ require 'dbconn.inc.php';
  $password = $_POST['password'];
  
  $sql = "INSERT INTO users (email, password) 
-  			  VALUES(s,s)";
+  			  VALUES(?,?)";
 
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
