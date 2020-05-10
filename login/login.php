@@ -98,13 +98,13 @@ $_SESSION['username'] = $_POST['username'];
 					<span class="login100-form-title p-b-32">
 						Login - <?php
 																	 if (($_SESSION['login']) != "validated") {
-																	 echo '<span style="font-size:0.5em; color:"red""> You are not validated</span>';}
+																	 echo '<span style="font-size:0.5em; color:"red""> Por favor ingresá tus datos</span>';}
 
 																	?>
 					</span>
 
 					<span class="txt1 p-b-11">
-						Username
+						Email
 					</span>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
 						<input class="input100" type="text" name="username" >
@@ -132,14 +132,14 @@ $_SESSION['username'] = $_POST['username'];
 
 						<div>
 							<a href="#" class="txt3">
-								Forgot Password?
+								¿Olvidaste tu contrase&ntilde;a?
 							</a>
 						</div>
 					</div>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" type="submit" name ="signup-submit">
-							Login
+							Ingresar
 						</button>
 					</div>
 
