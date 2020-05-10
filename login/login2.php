@@ -12,7 +12,7 @@ require 'dbconn.inc.php';
  
  //this code is to get the user name
  
-  if isset($email) {
+  if (isset($email)) {
 	  $query1 = "SELECT name FROM users WHERE email=";
 	$query2 = '"'.$email.'";';	
 	$query = $query1.$query2;
@@ -21,7 +21,7 @@ require 'dbconn.inc.php';
 	$_SESSION['name'] = $row[0];
   }
   
-  if isset($username) {
+  if (isset($username)) {
 	$query1 = "SELECT name FROM users WHERE username=";
 	$query2 = '"'.$username.'";';	
 	$query = $query1.$query2;
