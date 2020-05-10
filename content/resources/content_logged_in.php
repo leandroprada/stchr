@@ -154,7 +154,7 @@
               <p>Debajo algunos de nuestro amigos.</p>
 			  <ul>
 				<li>
-					<a href="https://www.leoprada.com.ar" target="_blank" class="btn btn-common btn-effect">LAP desarrollo de sitios web.</a>
+					<a href="https://www.leoprada.com.ar" target="_blank" class="">LAP desarrollo de sitios web.</a>
 				</li>
 				<li>
 					<a href="https://www.duhire.com/" target="_blank" class="btn btn-common btn-effect">DuHire App de Reclutamiento</a>
