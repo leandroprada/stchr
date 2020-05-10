@@ -124,7 +124,7 @@
             </div>
           </div>
           <div class="col-lg-12 col-md-12 col-xs-12">
-            <div class="" >
+            <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon color-4">
                 <i class="lni-layers"></i>
               </div>
