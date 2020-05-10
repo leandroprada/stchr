@@ -38,7 +38,7 @@ require 'dbconn.inc.php';
 				$_SESSION['email'] = $email;
 				$_SESSION['username'] = $username;
 				
-			   header("Location: ../index.php?userlogon=true");
+			   header("Location: ../resources.php?userlogon=true");
 		  }
 		  else {
 			  header("Location: ../index.php?error=sqlcouldnotexecute");
