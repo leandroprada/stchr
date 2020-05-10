@@ -157,7 +157,7 @@
 					<a href="https://www.leoprada.com.ar" target="_blank" class="">LAP desarrollo de sitios web.</a>
 				</li>
 				<li>
-					<a href="https://www.duhire.com/" target="_blank" class="btn btn-common btn-effect">DuHire App de Reclutamiento</a>
+					<a href="https://www.duhire.com/" target="_blank" class="btn"> DuHire App de Reclutamiento</a>
 				</li>
 				<li>
 					<a href="https://www.empleosit.com.ar/" target="_blank" class="btn btn-common btn-effect">EmpleosIT Ofertas de trabajo en Informática y Tecnología</a>
