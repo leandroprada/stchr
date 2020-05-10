@@ -36,6 +36,76 @@ $_SESSION['username'] = $_POST['username'];
 <!--===============================================================================================-->
 </head>
 <body>
+
+<header id="slider-area">
+      <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.php"><img src="img/stc2.png" alt=""></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#slider-area">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#services">Servicios</a>
+              </li>
+             <!--  <li class="nav-item">
+                <a class="nav-link page-scroll" href="#features">Features</a>
+              </li>     -->
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#portfolios">Cursos</a>
+              </li>
+            <!--   <li class="nav-item">
+                <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+              </li>  -->
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#team">El Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
+              </li>
+             <!--  <li class="nav-item">
+                <a class="nav-link page-scroll" href="#blog">Blog</a>
+              </li>  -->
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
+              </li>
+			
+			
+			<?php
+ 
+			 if ($_SESSION['login'] == "validated") {
+				echo '<li class="nav-item">
+					   <a class="nav-link page-scroll" href="./resources.php">Contenido Exclusivo</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link page-scroll" href="./login/logout.php">Logout</a>
+					  </li>';
+				}
+			else {
+				echo '<li class="nav-item">
+						<a class="nav-link page-scroll" href="./login/login.php">Login</a>
+					  </li>';
+				}
+			  
+			 ?>
+			</ul>
+		  </div>
+        </div>
+
+	  </nav>
+</header>
+
+
+
+
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
