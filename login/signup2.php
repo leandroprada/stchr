@@ -4,10 +4,11 @@
 require 'dbconn.inc.php';
 
  $email = $_POST['username'];
+ $name = $_POST['username'];
  $username = $_POST['username'];
  $password = $_POST['password'];
  
-$sql = "INSERT INTO users (email, password) VALUES (?, ?)";
+$sql = "INSERT INTO users (username, email, name, password) VALUES (?,?,?,?)";
 
   	
  $stmt = mysqli_stmt_init($conn);
@@ -21,7 +22,7 @@ $sql = "INSERT INTO users (email, password) VALUES (?, ?)";
   else {
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
-		  mysqli_stmt_bind_param($stmt, "ss", $email, $hasedPwd);
+		  mysqli_stmt_bind_param($stmt, "ssss", $username, $email, $name, $hasedPwd);
 		  mysqli_stmt_execute($stmt);
 		   	$_SESSION['username'] = $username;
 			$_SESSION['success'] = "You are now in our database";
