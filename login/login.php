@@ -79,23 +79,7 @@ $_SESSION['username'] = $_POST['username'];
               </li>
 			
 			
-			<?php
- 
-			 if ($_SESSION['login'] == "validated") {
-				echo '<li class="nav-item">
-					   <a class="nav-link page-scroll" href="./resources.php">Contenido Exclusivo</a>
-					  </li>
-					  <li class="nav-item">
-						<a class="nav-link page-scroll" href="./login/logout.php">Logout</a>
-					  </li>';
-				}
-			else {
-				echo '<li class="nav-item">
-						<a class="nav-link page-scroll" href="./login/login.php">Login</a>
-					  </li>';
-				}
-			  
-			 ?>
+			
 			</ul>
 		  </div>
         </div>
