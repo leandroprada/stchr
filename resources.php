@@ -11,6 +11,9 @@ if ($_SESSION['userloggedname'] != NULL) {
 if ($_SESSION['userloggedemail'] != NULL) {
 	$_SESSION['firstname'] =  $_SESSION['userloggedemail'];
 }
+elseif ($_SESSION['userloggedemail'] == NULL){
+	$_SESSION['firstname'] =  "usuario";
+}
 
 if ($_SESSION['login'] == "validated") {
 	include "./content/resources/content_logged_in.php";
