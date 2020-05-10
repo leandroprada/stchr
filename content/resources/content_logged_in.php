@@ -1,12 +1,12 @@
 <?php
  session_start();
 
-if (isset($_SESSION['userloggedname']) {
+if (isset($_SESSION['userloggedname'])) {
 	
 	$firstname = $_SESSION['userloggedname']
 }
 
-elseif (isset($_SESSION['userloggedmail']) {
+elseif (isset($_SESSION['userloggedmail'])) {
 	
 	$firstname = $_SESSION['userloggedmail']
 }
