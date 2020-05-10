@@ -100,7 +100,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Hola <?php echo $username;?>!</h2>
+          <h2 class="section-title">Hola <?php $username;?>!</h2>
           <span>Exclusivo</span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
