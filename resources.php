@@ -4,12 +4,12 @@ $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
 
 if ($_SESSION['userloggedname'] != NULL) {
-	$firstname = $_SESSION['userloggedname'];
+	$_SESSION['firstname'] = $_SESSION['userloggedname'];
 	
 }
 
 if ($_SESSION['userloggedemail'] != NULL) {
-	$firstname = $_SESSION['userloggedemail'];
+	$_SESSION['firstname'] =  $_SESSION['userloggedemail'];
 }
 
 if ($_SESSION['login'] == "validated") {
