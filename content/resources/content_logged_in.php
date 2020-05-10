@@ -75,7 +75,7 @@ $firstname = $_SESSION['firstname'];
       <div class="container">
         <div class="section-header"> 
           <h2 class="section-title">Hola <?php echo $firstname;?>!</h2>
-          <span>Exclusivo</span>
+          <span><?php echo $firstname;?></span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
         <div class="row">
