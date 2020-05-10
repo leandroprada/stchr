@@ -40,7 +40,7 @@ $_SESSION['username'] = $_POST['username'];
 <header id="slider-area">
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
         <div class="container">
-          <a class="navbar-brand" href="index.php"><img src="img/stc2.png" alt=""></a>
+          <a class="navbar-brand" href="../index.php"><img src="../img/stc2.png" alt=""></a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
@@ -48,34 +48,34 @@ $_SESSION['username'] = $_POST['username'];
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#slider-area">Inicio</a>
+                <a class="nav-link page-scroll" href="../index.php">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">Servicios</a>
+                <a class="nav-link page-scroll" href="../index.php#services">Servicios</a>
               </li>
              <!--  <li class="nav-item">
                 <a class="nav-link page-scroll" href="#features">Features</a>
               </li>     -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Cursos</a>
+                <a class="nav-link page-scroll" href="../index.php#portfolios">Cursos</a>
               </li>
             <!--   <li class="nav-item">
                 <a class="nav-link page-scroll" href="#pricing">Pricing</a>
               </li>  -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#team">El Equipo</a>
+                <a class="nav-link page-scroll" href="../index.php#team">El Equipo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
+                <a class="nav-link page-scroll" href="../novedades.php">Novedades</a>
               </li>
 			  <li class="nav-item">
-                <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
+                <a class="nav-link page-scroll" href="../postulate.php">Postulate</a>
               </li>
              <!--  <li class="nav-item">
                 <a class="nav-link page-scroll" href="#blog">Blog</a>
               </li>  -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
+                <a class="nav-link page-scroll" href="../index.php#contactenos">Contacto</a>
               </li>
 			
 			
