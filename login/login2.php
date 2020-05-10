@@ -29,13 +29,14 @@ require 'dbconn.inc.php';
 	  else {
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
-		  mysqli_stmt_bind_param ($stmt, "s", $email);
+		  mysqli_stmt_bind_param ($stmt, "ss", $email, $username);
 		  mysqli_stmt_execute($stmt);
 		  mysqli_stmt_store_result($stmt);
 		  $resultCheck = mysqli_stmt_num_rows($stmt);
 		  if ($resultCheck >= 1) {
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
+				$_SESSION['username'] = $username;
 				
 			   header("Location: ../index.php?userlogon=true");
 		  }
