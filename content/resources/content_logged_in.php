@@ -149,6 +149,23 @@
     <!-- Services Section End -->
 
     
+	<div>
+	      <h4>Links &Uacute;tiles.</h4>
+              <p>Debajo algunos de nuestro amigos.</p>
+			  <ul>
+				<li>
+					<a href="https://www.leoprada.com.ar" target="_blank" class="btn btn-common btn-effect">LAP desarrollo de sitios web.</a>
+				</li>
+				<li>
+					<a href="https://www.duhire.com/" target="_blank" class="btn btn-common btn-effect">DuHire App de Reclutamiento</a>
+				</li>
+				<li>
+					<a href="https://www.empleosit.com.ar/" target="_blank" class="btn btn-common btn-effect">EmpleosIT Ofertas de trabajo en Informática y Tecnología</a>
+				</li>
+			  </ul>	
+	</div>
+	
+	
     <!-- Start Video promo Section -->
   <section class="video-promo section">
       <div class="overlay"></div>
