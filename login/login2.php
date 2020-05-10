@@ -12,8 +12,10 @@ require 'dbconn.inc.php';
  
  //this code is to get the user name
 	$query1 = "SELECT name FROM users WHERE email=";
-	$query2 = '"'.$username.'";';
-	$query = $query1.$query2;
+	$query2 = '"'.$email.'";';
+	$query3 = "OR username=";
+	$query4 = '"'.$username.'";';
+	$query = $query1.$query2.$query3.$query4;
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
 	$_SESSION['name'] = $row[0];
