@@ -18,6 +18,7 @@ require 'dbconn.inc.php';
 	  echo "Cannot access database";
 	  exit();
 	  }
+	  
 	  else {
 		  $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 		  
@@ -28,9 +29,7 @@ require 'dbconn.inc.php';
 		
 			   header("Location: ../index.php?userlogon=true");
 		  }
-		  else {
-			  header("Location: ../index.php?error=sqlcouldnotexecute");
-		  }
+
 
 	  }
 	  
