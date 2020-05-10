@@ -105,7 +105,7 @@
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-xs-12">
             <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
               <div class="icon color-1">
                 <i class="lni-search"></i>
@@ -114,7 +114,7 @@
               <p>Volve a ver alg&uacute;n curso que hayas tomado.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
+         <!--  <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.4s">
               <div class="icon color-2">
                 <i class="lni-direction-alt"></i>
@@ -122,8 +122,8 @@
               <h4>Documentos de consulta.</h4>
               <p>Para leer cuando tenés alguna duda.</p>
             </div>
-          </div>
-          <div class="col-lg-12 col-md-12 col-xs-12">
+          </div> -->
+          <div class="col-lg-6 col-md-6 col-xs-12">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon color-4">
                 <i class="lni-layers"></i>
