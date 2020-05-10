@@ -38,7 +38,7 @@ $_SESSION['username'] = $_POST['username'];
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
-				<form class="login100-form validate-form flex-sb flex-w" action="signup.php" method="post">
+				<form class="login100-form validate-form flex-sb flex-w" action="login2.php" method="post">
 					<span class="login100-form-title p-b-32">
 						Login - <?php
 																	 if (($_SESSION['login']) != "validated") {
