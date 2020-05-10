@@ -13,7 +13,7 @@ require 'dbconn.inc.php';
  //this code is to get the user name
  
   if (isset($email)) {
-	$query1 = "SELECT name FROM users WHERE email=";
+	$query1 = "SELECT name FROM users WHERE username=";
 	$query2 = '"'.$email.'";';	
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
