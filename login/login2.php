@@ -14,7 +14,7 @@ require 'dbconn.inc.php';
  
   if (isset($email)) {
 	$query1 = "SELECT name FROM users WHERE email=";
-	$query2 = '"'.$email.'";';	
+	$query2 = '"'.$username.'";';	
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
