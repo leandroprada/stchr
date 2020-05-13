@@ -110,6 +110,60 @@
           
         </div>    -->
 		
+		
+		<div class="row ">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+              <div class="icon color-1">
+                <i class="lni-search"></i>
+              </div>
+              <h3>DEVELOPER REACT SR / SSR(REMOTO)</h3>
+              
+				<div class="text-center">
+					<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+				</div>
+          
+			
+            </div>
+          </div>
+			
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>B&uacute;squeda</h6>
+						<p> Estamos en b&uacute;squeda de los mejores Talentos IT para una importante compa&ntilde;&iacute;a Uruguaya que cuenta con un equipo de  expertos en desarrollo frontend y m&oacute;vil, utilizando experiencia en UX/UI ayudan a clientes a construir productos incre&iacute;bles.
+
+						Con m&aacute;s de 40 productos exit&oacute;samente entregados, trabajados d&iacute;a a d&iacute;a desafiando el status para ser los mejores en lo que hacen.
+
+						Trabajaras en  un proyecto de un cliente extranjero del sector Fintech relacionado a blockchain y el mundo de las criptomonedas, por lo tanto si sabes de blockchain es un plus. </p>
+						
+			    <ul><h6>Condiciones</h6>
+				<li>Horario full-time</li>
+				<li>Onsite si resid&iacute;s en Uruguay </li>
+				<li>Remoto si sos de otro pa&iacute;s</li>
+				<li>Puede ser en relaci&oacute;n de dependencia o contractor</li>
+				</ul> 
+		
+				<ul><h6>Requisitos Excluyentes:</h6>
+				<li>Javascript</li>
+				<li>ReactJS</li>
+				<li>React Native</li>
+				<li>NodeJS</li>
+				<li>CSS</li>
+				<li>HTML</li>
+				<li>Git</li>
+				<li>Buen nivel de ingl&eacute;s oral y escrito</li>
+				<li>Gusto por la metodolog&iacute;as &aacute;giles</li>
+
+				</ul>
+				<ul><h6>Requisitos Deseables:</h6>
+				<li>Conocimientos de Blockchain y Criptomonedas</li>
+				</ul>
+				</div>
+						
+			</div>
+        </div>
+		
+		
 		<div class="row ">
           <div class="col-lg-12 col-md-12 col-xs-12">
             <div class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
@@ -159,7 +213,7 @@
 				</div>
 						
 			</div>
-          </div>
+        </div>
 		  
 		<div class="row ">
           <div class="col-lg-12 col-md-12 col-xs-12">
