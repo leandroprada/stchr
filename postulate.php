@@ -111,7 +111,7 @@
         </div>    -->
 		
 		
-		<div class="row ">
+		<!--<div class="row ">
           <div class="col-lg-12 col-md-12 col-xs-12">
             <div class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
               <div class="icon color-1">
@@ -161,7 +161,7 @@
 				</div>
 						
 			</div>
-        </div>
+        </div> -->
 		
 		
 		<div class="row ">
