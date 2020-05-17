@@ -1006,7 +1006,7 @@ button:focus {
   color: #fff;
 }
 
-.video-promo .video-promo-content-light{
+.video-promo-content-light{
   background: url(../img/bg/videolight.jpg);
   position: relative;
 }
