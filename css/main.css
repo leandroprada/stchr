@@ -1002,13 +1002,14 @@ button:focus {
   position: relative;
 }
 
-.video-promo .video-promo-content {
+.video-promo .video-promo-content .video-promo-content-light{
   color: #fff;
 }
+.video-promo-content-light {
+background: url(../img/bg/videolight.jpg);
+}
 
-
-
-.video-promo .video-promo-content .video-popup {
+.video-promo .video-promo-content .video-promo-content-light .video-popup {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -1020,14 +1021,14 @@ button:focus {
   font-size: 26px;
 }
 
-.video-promo .video-promo-content h2 {
+.video-promo .video-promo-content .video-promo-content-light h2 {
   margin-top: 30px;
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.video-promo .video-promo-content p {
+.video-promo .video-promo-content .video-promo-content-light  p {
   color: #fff;
 }
 
