@@ -1002,14 +1002,12 @@ button:focus {
   position: relative;
 }
 
-.video-promo .video-promo-content .video-promo-content-light{
+.video-promo .video-promo-content {
   color: #fff;
 }
-.video-promo-content-light {
-background: url(../img/bg/videolight.jpg);
-}
 
-.video-promo .video-promo-content .video-promo-content-light .video-popup {
+
+.video-promo .video-promo-content .video-popup {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -1021,14 +1019,14 @@ background: url(../img/bg/videolight.jpg);
   font-size: 26px;
 }
 
-.video-promo .video-promo-content .video-promo-content-light h2 {
+.video-promo .video-promo-content h2 {
   margin-top: 30px;
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.video-promo .video-promo-content .video-promo-content-light  p {
+.video-promo .video-promo-content p {
   color: #fff;
 }
 
