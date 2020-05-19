@@ -2,12 +2,21 @@
  session_start();
 
 $firstname = $_SESSION['firstname']; 
- 
- ?>
+$course = $_SESSION['group'];
 
 
-
-
+switch ($course) {
+					case "all":
+						echo "Aca verás todos los cursos por ser del grupo".$course;
+						break;
+					case "itavanzadomay20":
+						echo "Aca verás todos los cursos de IT Avanzado".$course;
+						break;
+					case "itbasicojun20":
+						echo "Aca verás todos los cursos de IT basico".$course;
+						break;
+					default "default":
+					   echo "nothing to see here";
 
 
 
@@ -37,3 +46,5 @@ $firstname = $_SESSION['firstname'];
     </section>
 
 <!-- End Video Promo Section -->
+
+?>
