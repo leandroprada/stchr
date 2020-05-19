@@ -125,10 +125,10 @@ $firstname = $_SESSION['firstname'];
 <?php
  
 			 if ($_SESSION['login'] == "validated") {
-				include "./content/resources_by_curso.php";
+				include "resources_by_curso.php";
 				}
 			else {
-				include "./content/resources_generico.php";
+				include "resources_generico.php";
 				}
 			  
 			 ?>    
