@@ -124,10 +124,15 @@ $firstname = $_SESSION['firstname'];
 
 <?php
  
-			 if ($_SESSION['group'] != NULL) {
+			if ($_SESSION['group'] == "default"){
+				include "resources_generico.php";
+				}
+						
+			else if ($_SESSION['group'] != NULL) {
 				include "resources_by_curso.php";
 				}
-			else if ($_SESSION['group'] == "default"){
+				
+			if ($_SESSION['group'] == "default"){
 				include "resources_generico.php";
 				}
 			 else header("Location: ../../login/login.php?usergroup=unauthorized"); 
