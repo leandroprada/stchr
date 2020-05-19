@@ -29,6 +29,24 @@ require 'dbconn.inc.php';
 	$rowx = mysqli_fetch_row($resultx);
 	$userloggedname = $rowx[0];
   }
+  
+  if (isset($email)) {
+	$query1 = "SELECT course FROM users WHERE email=";
+	$query2 = '"'.$username.'";';	
+	$query = $query1.$query2;
+	$result = mysqli_query($conn,$query);
+	$row = mysqli_fetch_row($result);
+	$userloggedcourse = $row[0];
+  }
+  
+  if (isset($username)) {
+	$query3 = "SELECT course FROM users WHERE username=";
+	$query4 = '"'.$username.'";';	
+	$queryx = $query3.$query4;
+	$resultx = mysqli_query($conn,$queryx);
+	$rowx = mysqli_fetch_row($resultx);
+	$userloggedcourse = $rowx[0];
+  }
 	
 
  
@@ -52,6 +70,7 @@ require 'dbconn.inc.php';
 				$_SESSION['username'] = $username;
 				$_SESSION['userloggedemail'] = $userloggedemail;
 				$_SESSION['userloggedname'] = $userloggedname;
+				$_SESSION['userloggedcourse'] = $userloggedcourse;
 				
 			   header("Location: ../resources.php?userlogon=true");
 		  }

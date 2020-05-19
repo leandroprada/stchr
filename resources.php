@@ -16,10 +16,10 @@ elseif ($_SESSION['userloggedemail'] == NULL){
 }
 
 if ($_SESSION['login'] == "validated") {
-	include "./content/resources/content_logged_in.php";
+	include "./content/resources/resources_logged_in.php";
 	}
 else {
-	include "./content/resources/content_not_logged_in.php";
+	include "./content/resources/resources_not_logged_in.php";
 	}
 
 ?>
