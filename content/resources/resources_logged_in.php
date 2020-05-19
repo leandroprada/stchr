@@ -126,7 +126,7 @@ $firstname = $_SESSION['firstname'];
 /* En esta seccion se debe cambiar este if desprolijo a un CASE SWITCH donde los casos sean default y luego uno por cada curso,  y finalmente el else*/ 
 			
 			if ($_SESSION['group'] == "default"){
-				echo "
+				echo '
 				<!-- Start Video promo Section -->
 
 					<section class="video-promo section">
@@ -147,7 +147,7 @@ $firstname = $_SESSION['firstname'];
 				<!-- End Video Promo Section -->
 
 				
-				";
+				';
 				include "resources_generico.php";
 				}
 						
