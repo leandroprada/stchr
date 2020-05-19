@@ -123,7 +123,7 @@ $firstname = $_SESSION['firstname'];
     <!-- Services Section End -->
 
 <?php
-/* En esta seccion se debe cambiar este if desprolijo a un CASE SWITCH donde los casos sean default y luego uno por cada curso,  y finalmente el else*/ 
+/* En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario*/ 
 			
 			if ($_SESSION['group'] == "default"){
 				echo '
