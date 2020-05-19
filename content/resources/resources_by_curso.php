@@ -9,18 +9,18 @@ $course = $_SESSION['group'];
 				}
 				
 			else if ($course == "all"){
-				echo "Aca verás todos los cursos por ser del grupo".$course;
+				echo "Aca verás todos los cursos por ser del grupo";
 				}
 			
 			else if ($course == "itavanzadomay20"){
-				echo "Aca verás todos los cursos de IT Avanzado".$course;
+				echo "Aca verás todos los cursos de IT Avanzado";
 				}
 			
 			else {
 				echo "no sé qué mostrarte";
 				}
 				
-				
+?>				
 
 
 <!-- Start Video promo Section -->
@@ -49,5 +49,3 @@ $course = $_SESSION['group'];
     </section>
 
 <!-- End Video Promo Section -->
-
-?>
