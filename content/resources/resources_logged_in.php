@@ -125,8 +125,8 @@ $firstname = $_SESSION['firstname'];
 <?php
  
 			 if ($_SESSION['login'] == "validated") {
-				 echo($_SESSION['userloggedbyemailcourse'];
-				 echo($_SESSION['userloggedbyeusernamecourse'];
+				 var_dump($_SESSION['userloggedbyemailcourse']);
+				 var_dump($_SESSION['userloggedbyeusernamecourse']);
 				 
 				include ('./content/resources_by_curso.php');
 				}

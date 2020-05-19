@@ -33,19 +33,19 @@ require 'dbconn.inc.php';
   if (isset($email)) {
 	$query5 = "SELECT course FROM users WHERE email=";
 	$query6 = '"'.$username.'";';	
-	$query = $query5.$query6;
-	$result = mysqli_query($conn,$query);
-	$row = mysqli_fetch_row($result);
-	$userloggedbyemailcourse = $row[0];
+	$queryy = $query5.$query6;
+	$resulty = mysqli_query($conn,$queryy);
+	$rowy = mysqli_fetch_row($resulty);
+	$userloggedbyemailcourse = $rowy[0];
   }
   
   if (isset($username)) {
 	$query7 = "SELECT course FROM users WHERE username=";
 	$query8 = '"'.$username.'";';	
-	$queryx = $query7.$query8;
-	$resultx = mysqli_query($conn,$queryx);
-	$rowx = mysqli_fetch_row($resultx);
-	$userloggedbyeusernamecourse = $rowx[0];
+	$queryz = $query7.$query8;
+	$resultz = mysqli_query($conn,$queryz);
+	$rowz = mysqli_fetch_row($resultz);
+	$userloggedbyeusernamecourse = $rowz[0];
   }
 	
 
