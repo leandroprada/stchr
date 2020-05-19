@@ -1,14 +1,15 @@
 <?php
  session_start();
+$_SESSION['username'] = $_POST['username'];
+$_SESSION['email'] = $_POST['email'];
 
-
-if ($_SESSION['namebyuser'] != NULL) {
-	$_SESSION['firstname'] = $_SESSION['namebyuser'];
+if ($_SESSION['userloggedname'] != NULL) {
+	$_SESSION['firstname'] = $_SESSION['userloggedname'];
 	
 }
 
-if ($_SESSION['namebyemail'] != NULL) {
-	$_SESSION['firstname'] =  $_SESSION['namebyemail'];
+if ($_SESSION['userloggedemail'] != NULL) {
+	$_SESSION['firstname'] =  $_SESSION['userloggedemail'];
 }
 elseif ($_SESSION['userloggedemail'] == NULL){
 	$_SESSION['firstname'] =  "usuario";

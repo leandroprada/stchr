@@ -67,7 +67,7 @@ require 'dbconn.inc.php';
 		  if ($resultCheck >= 1) { 
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-				$_SESSION['userloggedname'] = $username;
+				$_SESSION['userloggedname'] = $userloggedname;
 				$_SESSION['userloggedemail'] = $userloggedemail;
 				$_SESSION['userloggedbyemailcourse'] = $userloggedbyemailcourse;
 				$_SESSION['userloggedbyeusernamecourse'] = $userloggedbyeusernamecourse;
