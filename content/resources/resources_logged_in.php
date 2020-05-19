@@ -126,6 +126,28 @@ $firstname = $_SESSION['firstname'];
 /* En esta seccion se debe cambiar este if desprolijo a un CASE SWITCH donde los casos sean default y luego uno por cada curso,  y finalmente el else*/ 
 			
 			if ($_SESSION['group'] == "default"){
+				echo "
+				<!-- Start Video promo Section -->
+
+					<section class="video-promo section">
+					 <div class="overlay"></div>
+					  <div class="container">
+						<div class="row">
+						  <div class="col-md-12 col-sm-12">
+							
+							  <div class="video-promo-content text-center">
+									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No has participado de ning&uacute;n curso - Inscrib&iacute;te!</h2>
+							  </div>
+						  </div>
+						</div>
+					   </div>
+					  </div>
+					</section>
+
+				<!-- End Video Promo Section -->
+
+				
+				";
 				include "resources_generico.php";
 				}
 						
