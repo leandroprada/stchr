@@ -5,7 +5,7 @@ $firstname = $_SESSION['firstname'];
 $course = $_SESSION['group'];
 
 			if ($course == "default"){
-				echo "nothing to see here";
+				include "resources_generico.php";
 				}
 				
 			else if ($course == "all"){
