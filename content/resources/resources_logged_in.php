@@ -125,6 +125,7 @@ $firstname = $_SESSION['firstname'];
 <?php
  
 			 if ($_SESSION['login'] == "validated") {
+				 var_dump($_SESSION['userloggedcourse']);
 				include './content/resources_by_curso.php';
 				}
 			else {
