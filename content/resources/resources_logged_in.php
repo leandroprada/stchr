@@ -125,11 +125,13 @@ $firstname = $_SESSION['firstname'];
 <?php
  
 			 if ($_SESSION['login'] == "validated") {
-				 var_dump($_SESSION['userloggedcourse']);
-				include './content/resources_by_curso.php';
+				 var_dump($_SESSION['userloggedbyemailcourse'];
+				 var_dump($_SESSION['userloggedbyeusernamecourse'];
+				 
+				include ('./content/resources_by_curso.php');
 				}
 			else {
-				include './content/resources_generico.php';
+				include ('./content/resources_generico.php');
 				}
 			  
 			 ?>    
