@@ -127,10 +127,10 @@ $firstname = $_SESSION['firstname'];
 			 if ($_SESSION['group'] != NULL) {
 				include "resources_by_curso.php";
 				}
-			else {
+			else if ($_SESSION['group'] == "default"){
 				include "resources_generico.php";
 				}
-			  
+			 else header("Location: ../../login/login.php?usergroup=unauthorized"); 
 			 ?>    
 		
 	
