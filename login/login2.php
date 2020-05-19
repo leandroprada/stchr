@@ -18,7 +18,7 @@ require 'dbconn.inc.php';
 	$query = $query1.$query2;
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
-	$userloggedemail = $row[0];
+	$namebymail = $row[0];
   }
   
   if (isset($username)) {
@@ -27,7 +27,7 @@ require 'dbconn.inc.php';
 	$queryx = $query3.$query4;
 	$resultx = mysqli_query($conn,$queryx);
 	$rowx = mysqli_fetch_row($resultx);
-	$userloggedname = $rowx[0];
+	$namebyuser = $rowx[0];
   }
   
   if (isset($email)) {
@@ -36,7 +36,7 @@ require 'dbconn.inc.php';
 	$queryy = $query5.$query6;
 	$resulty = mysqli_query($conn,$queryy);
 	$rowy = mysqli_fetch_row($resulty);
-	$userloggedbyemailcourse = $rowy[0];
+	$coursebyemail = $rowy[0];
   }
   
   if (isset($username)) {
@@ -45,7 +45,7 @@ require 'dbconn.inc.php';
 	$queryz = $query7.$query8;
 	$resultz = mysqli_query($conn,$queryz);
 	$rowz = mysqli_fetch_row($resultz);
-	$userloggedbyeusernamecourse = $rowz[0];
+	$coursebyuser = $rowz[0];
   }
 	
 
@@ -67,10 +67,10 @@ require 'dbconn.inc.php';
 		  if ($resultCheck >= 1) { 
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-				$_SESSION['userloggedname'] = $username;
-				$_SESSION['userloggedemail'] = $userloggedemail;
-				$_SESSION['userloggedbyemailcourse'] = $userloggedbyemailcourse;
-				$_SESSION['userloggedbyeusernamecourse'] = $userloggedbyeusernamecourse;
+				$_SESSION['firstnamebyemail'] = $namebyemail;
+				$_SESSION['firstnamebyuser'] = $namebyuser;
+				$_SESSION['coursebyemail'] = $coursebyemail;
+				$_SESSION['coursebyuser'] = $coursebyuser;
 				
 			   header("Location: ../resources.php?userlogon=true");
 		  }

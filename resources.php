@@ -3,13 +3,13 @@
 $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
 
-if ($_SESSION['userloggedname'] != NULL) {
-	$_SESSION['firstname'] = $_SESSION['userloggedname'];
+if ($_SESSION['firstnamebyuser'] != NULL) {
+	$_SESSION['firstname'] = $_SESSION['firstnamebyuser'];
 	
 }
 
-if ($_SESSION['userloggedemail'] != NULL) {
-	$_SESSION['firstname'] =  $_SESSION['userloggedemail'];
+if ($_SESSION['firstnamebyemail'] != NULL) {
+	$_SESSION['firstname'] =  $_SESSION['firstnamebyemail'];
 }
 elseif ($_SESSION['userloggedemail'] == NULL){
 	$_SESSION['firstname'] =  "usuario";
