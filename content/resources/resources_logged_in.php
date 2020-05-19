@@ -125,30 +125,15 @@ $course = $_SESSION['group'];
 <?php
 /* En esta seccion se debe cambiar este if desprolijo a un CASE SWITCH donde los casos sean default y luego uno por cada curso,  y finalmente el else*/ 
 			
-			
-			
-			
 			if ($_SESSION['group'] == "default"){
 				include "resources_generico.php";
 				}
-				
+						
 			else if ($_SESSION['group'] != NULL) {
-					switch ($course) {
-					case "all":
-						echo "Aca verás todos los cursos por ser del grupo".$course;
-						break;
-					case "itavanzadomay20":
-						echo "Aca verás todos los cursos de IT Avanzado".$course;
-						break;
-					case "itbasicojun20":
-						echo "Aca verás todos los cursos de IT basico".$course;
-						break;
-					default "default":
-					   include "resources_generico.php";
-					}
-			}					
-			
-			 else header("Location: ../../login/login.php?usergroup=unauthorized"); 
+				include "resources_by_curso.php";
+				}
+				
+			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
 			 ?>    
 		
 	

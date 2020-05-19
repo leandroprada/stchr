@@ -4,20 +4,23 @@
 $firstname = $_SESSION['firstname']; 
 $course = $_SESSION['group'];
 
-
-switch ($course) {
-					case "all":
-						echo "Aca verás todos los cursos por ser del grupo".$course;
-						break;
-					case "itavanzadomay20":
-						echo "Aca verás todos los cursos de IT Avanzado".$course;
-						break;
-					case "itbasicojun20":
-						echo "Aca verás todos los cursos de IT basico".$course;
-						break;
-					default "default":
-					   echo "nothing to see here";
-
+			if ($course == "default"){
+				echo "nothing to see here";
+				}
+				
+			else if ($course == "all"){
+				echo "Aca verás todos los cursos por ser del grupo".$course;
+				}
+			
+			else if ($course == "itavanzadomay20"){
+				echo "Aca verás todos los cursos de IT Avanzado".$course;
+				}
+			
+			else {
+				echo "no sé qué mostrarte";
+				}
+				
+				
 
 
 <!-- Start Video promo Section -->
