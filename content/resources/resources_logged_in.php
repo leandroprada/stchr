@@ -124,7 +124,7 @@ $firstname = $_SESSION['firstname'];
 
 <?php
  
-			 if ($_SESSION['login'] == "validated") {
+			 if ($_SESSION['group'] != NULL) {
 				include "resources_by_curso.php";
 				}
 			else {

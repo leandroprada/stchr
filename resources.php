@@ -2,7 +2,7 @@
  session_start();
 $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
-
+/* This section sets the firstname to session coming from user logged in either by email or username*/
 if ($_SESSION['userloggedname'] != NULL) {
 	$_SESSION['firstname'] = $_SESSION['userloggedname'];
 	
@@ -14,6 +14,18 @@ if ($_SESSION['userloggedemail'] != NULL) {
 elseif ($_SESSION['userloggedemail'] == NULL){
 	$_SESSION['firstname'] =  "usuario";
 }
+
+/* This section sets the user security level group to session coming from user logged in either by email or username*/
+if ($_SESSION['userloggedbyemailcourse'] != NULL) {
+	$_SESSION['group'] = $_SESSION['userloggedbyemailcourse'];
+	
+}
+
+if ($_SESSION['userloggedbyeusernamecourse'] != NULL) {
+	$_SESSION['group'] =  $_SESSION['userloggedbyeusernamecourse'];
+}
+				
+				
 
 if ($_SESSION['login'] == "validated") {
 	include "./content/resources/resources_logged_in.php";
