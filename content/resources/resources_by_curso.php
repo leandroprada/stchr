@@ -41,7 +41,26 @@ $course = $_SESSION['group'];
 					</section>
 
 				<!-- End Video Promo Section -->
+				';
+				}
+			
+			else {
+				echo '
+				<section class="video-promo section">
+					<div class="overlay"></div>
+					  <div class="container">
+						<div class="row">
+						  <div class="col-md-12 col-sm-12">
+							
+							  <div class="video-promo-content text-center">
+									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No hay contenido exclusivo para tu cuenta</h2>
+									
+							  </div>
+						  </div>
 
+						</div>
+					  </div>
+				</section>
 				
 				
 				
@@ -49,10 +68,6 @@ $course = $_SESSION['group'];
 				
 				
 				';
-				}
-			
-			else {
-				echo "no sé qué mostrarte";
 				}
 				
 ?>				
