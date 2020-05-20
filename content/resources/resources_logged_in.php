@@ -141,7 +141,7 @@ $firstname = $_SESSION['firstname'];
 						  </div>
 						</div>
 					   </div>
-					  </div>
+					  
 					</section>
 
 				<!-- End Video Promo Section -->
