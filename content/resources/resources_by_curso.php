@@ -2,7 +2,7 @@
  session_start();
 
 $firstname = $_SESSION['firstname']; 
-$course = $_SESSION['group'];
+$course = $_SESSION['course'];
 
 			if ($course == "default"){
 				include "resources_generico.php";
