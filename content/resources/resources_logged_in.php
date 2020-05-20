@@ -125,7 +125,7 @@ $firstname = $_SESSION['firstname'];
 <?php
 /* En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario*/ 
 			
-			if ($_SESSION['group'] == "default"){
+			if ($_SESSION['course'] == "default"){
 				echo '
 				<!-- Start Video promo Section -->
 
@@ -151,7 +151,7 @@ $firstname = $_SESSION['firstname'];
 				include "resources_generico.php";
 				}
 						
-			else if ($_SESSION['group'] != NULL) {
+			else if ($_SESSION['course'] != NULL) {
 				include "resources_by_curso.php";
 				}
 				

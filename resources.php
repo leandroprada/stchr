@@ -17,12 +17,12 @@ elseif ($_SESSION['userloggedemail'] == NULL){
 
 /* This section sets the user security level group to session coming from user logged in either by email or username*/
 if ($_SESSION['userloggedbyemailcourse'] != NULL) {
-	$_SESSION['group'] = $_SESSION['userloggedbyemailcourse'];
+	$_SESSION['course'] = $_SESSION['userloggedbyemailcourse'];
 	
 }
 
 if ($_SESSION['userloggedbyeusernamecourse'] != NULL) {
-	$_SESSION['group'] =  $_SESSION['userloggedbyeusernamecourse'];
+	$_SESSION['course'] =  $_SESSION['userloggedbyeusernamecourse'];
 }
 				
 				
