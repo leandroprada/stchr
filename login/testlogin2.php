@@ -67,7 +67,7 @@ require 'dbconn.inc.php';
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
 				<span class="login100-form-title p-b-32">
-						The course/s for this user are <?php  Echo $coursesforthisuser; ?>
+						The course/s for this user are <?php  var_dump ($coursesforthisuser); ?>
 					</span>
 				
 			</div>
