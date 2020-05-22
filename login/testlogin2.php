@@ -3,19 +3,19 @@
 
 require 'dbconn.inc.php';
 
- $email = $_POST['username'];
- $username = $_POST['username'];
+ 
+ 
  $password = $_POST['password'];
  
 //TO Verify if the username box contains a username or an email
- $arroba = "@";
-$useremail = $_POST['username'];
+$arroba = "@";
+$useroremail = $_POST['username'];
  
 // Test if string contains the word 
 if(strpos($useremail, $arroba) !== false){
-    echo "es un email";
+    $email = $_POST['username'];
 } else{
-    echo "es un usuario, no un email";
+    $username = $_POST['username'];
 }
  
  
