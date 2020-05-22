@@ -59,9 +59,9 @@ if(strpos($useroremail, $arroba) !== false){
 	
 	
 	foreach ($coursesforthisuser as $course_id) {
-			$query3 = "SELECT course_name FROM courses WHERE course_id=";
-			$query4 = '"'.$course_id.'";';	
-			$queryc = $query3.$query4;
+			$query5 = "SELECT course_name FROM courses WHERE course_id=";
+			$query6 = '"'.$course_id.'";';	
+			$queryc = $query5.$query6;
 			$resultc = mysqli_query($conn,$queryc);
 			$rowc = mysqli_fetch_row($resultc);
 			$courses_nameforthisuser = $rowc[0];
