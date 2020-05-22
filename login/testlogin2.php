@@ -14,8 +14,10 @@ $useroremail = $_POST['username'];
 // Test if string contains the word 
 if(strpos($useremail, $arroba) !== false){
     $email = $_POST['username'];
+	echo username ahora contiene un email.$email;
 } else{
     $username = $_POST['username'];
+	echo username ahora contiene un usuario.$username;
 }
  
  
@@ -35,7 +37,7 @@ if(strpos($useremail, $arroba) !== false){
 	
 	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
 	echo $queryn;
-	$resultn = mysqli_query($conn,$queryn);
+	/*$resultn = mysqli_query($conn,$queryn);
 	$rown = mysqli_fetch_row($resultn);
 	$name = $rown[0];
  
