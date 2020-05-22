@@ -25,7 +25,7 @@ require 'dbconn.inc.php';
 	$row = mysqli_fetch_row($result);
 	$coursesforthisuser = $row[0];
 	
-	echo "pasé por aca! y el valor de $row es".$row;
+	echo "pasé por aca! y el valor de $row es".$coursesforthisuser;
   }
   
  	
