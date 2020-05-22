@@ -41,7 +41,7 @@ if(strpos($useroremail, $arroba) !== false){
  echo "este es el nombre del usuario";
  echo $name;
   
-  if (isset($username)) {
+  if (isset($username) or isset($email)) {
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
 	
 	$query1 = "SELECT course FROM users WHERE username=";
