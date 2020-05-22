@@ -14,7 +14,7 @@ require 'dbconn.inc.php';
  //SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
 
  
-	$queryn1 = "SELECT name FROM users WHERE (email=";
+	$queryn1 = "SELECT name FROM users WHERE (username=";
 	$queryn2 = '"'.$username.'";';	
 	$queryn2 = ' OR email = ';	
 	$queryn4 = '"'.$email.'");';	
@@ -24,7 +24,8 @@ require 'dbconn.inc.php';
 	$rown = mysqli_fetch_row($resultn);
 	$name = $rown[0];
  
- echo "este es el nombre del usuario".$name;
+ echo "este es el nombre del usuario":
+ var_dump ($name);
   
   if (isset($username)) {
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
