@@ -19,11 +19,11 @@ require 'dbconn.inc.php';
 	$queryn2 = ' OR email = ';	
 	$queryn4 = '"'.$email.'");';	
 	
-	$queryn = $queryn1.$queryn2.$queryn4.$queryn4;
+	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
 	
-	/*$resultn = mysqli_query($conn,$queryn);
+	$resultn = mysqli_query($conn,$queryn);
 	$rown = mysqli_fetch_row($resultn);
-	$name = $rown[0];*/
+	$name = $rown[0];
  
  echo "este es el nombre del usuario":
  var_dump ($name);
