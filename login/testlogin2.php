@@ -14,8 +14,8 @@ require 'dbconn.inc.php';
  //SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
 
  
-	$queryn1 = "SELECT name FROM users WHERE (username=";
-	$queryn2 = '"'.$username.'";';	
+	$queryn1 = "SELECT name FROM users WHERE (username = ";
+	$queryn2 = '"'.$username.'"';	
 	$queryn2 = ' OR email = ';	
 	$queryn4 = '"'.$email.'");';	
 	
