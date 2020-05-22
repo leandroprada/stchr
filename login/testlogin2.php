@@ -20,7 +20,7 @@ if(strpos($useroremail, $arroba) !== false){
  
  
  
- $sql = "SELECT email FROM users WHERE email=? OR username=?";
+ //$sql = "SELECT email FROM users WHERE email=? OR username=?";
  
  
  //this code is to get the user name
@@ -34,7 +34,7 @@ if(strpos($useroremail, $arroba) !== false){
 	
 	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
 	echo $queryn;
-	$resultn = mysqli_query($conn,$queryn);
+	/*$resultn = mysqli_query($conn,$queryn);
 	$rown = mysqli_fetch_row($resultn);
 	$name = $rown[0];
  
