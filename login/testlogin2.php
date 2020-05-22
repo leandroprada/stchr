@@ -45,8 +45,11 @@ if(strpos($useroremail, $arroba) !== false){
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
 	
 	$query1 = "SELECT course FROM users WHERE username=";
-	$query2 = '"'.$username.'";';	
-	$query = $query1.$query2;
+	$query2 = '"'.$username.'"';	
+	$query3 = ' OR email = ';	
+	$query4 = '"'.$email.'");';	
+	
+	$query = $query1.$query2.$query3.$query4;
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
 	$coursesforthisuser = $row[0];
