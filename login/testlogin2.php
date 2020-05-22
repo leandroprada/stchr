@@ -14,10 +14,10 @@ $useroremail = $_POST['username'];
 // Test if string contains the word 
 if(strpos($useroremail, $arroba) !== false){
     $email = $_POST['username'];
-	echo username ahora contiene un email.$email;
+	echo "username ahora contiene un email".$email;
 } else{
     $username = $_POST['username'];
-	echo username ahora contiene un usuario.$username;
+	echo "username ahora contiene un usuario".$username;
 }
  
  
