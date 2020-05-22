@@ -14,6 +14,10 @@ require 'dbconn.inc.php';
  
   
   if (isset($username)) {
+	var_dump($username);
+	var_dump($_POST);
+	var_dump($_SESSION);
+	
 	$query1 = "SELECT course FROM users WHERE username=";
 	$query2 = '"'.$username.'";';	
 	$query = $query1.$query2;
