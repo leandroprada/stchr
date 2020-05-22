@@ -14,9 +14,7 @@ require 'dbconn.inc.php';
  
   
   if (isset($username)) {
-	var_dump($username);
-	var_dump($_POST);
-	var_dump($_SESSION);
+	// This query below first gets the list of courses for that username, then queries the table courses, using that id
 	
 	$query1 = "SELECT course FROM users WHERE username=";
 	$query2 = '"'.$username.'";';	
@@ -26,20 +24,15 @@ require 'dbconn.inc.php';
 	$coursesforthisuser = $row[0];
 	$coursesforthisuser = explode(",",$coursesforthisuser);
 	foreach ($coursesforthisuser as $course_id) {
-		
-	$query3 = "SELECT course_name FROM courses WHERE course_id=";
-	$query4 = '"'.$course_id.'";';	
-	$queryc = $query3.$query4;
-	$resultc = mysqli_query($conn,$queryc);
-	$rowc = mysqli_fetch_row($resultc);
-	$courses_nameforthisuser = $rowc[0];
-		
-	Echo 'el numero de curso '.$course_id.' de este usuario, se corresponde con el curso '.$courses_nameforthisuser;
-		
-		
-		
-		
-	}
+			$query3 = "SELECT course_name FROM courses WHERE course_id=";
+			$query4 = '"'.$course_id.'";';	
+			$queryc = $query3.$query4;
+			$resultc = mysqli_query($conn,$queryc);
+			$rowc = mysqli_fetch_row($resultc);
+			$courses_nameforthisuser = $rowc[0];
+				
+			Echo 'el numero de curso '.$course_id.' de este usuario, se corresponde con el curso '.$courses_nameforthisuser;
+			}
 	
 	echo "pasé por aca! y el valor de $row es".$coursesforthisuser;
   }
