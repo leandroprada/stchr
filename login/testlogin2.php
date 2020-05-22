@@ -7,6 +7,20 @@ require 'dbconn.inc.php';
  $username = $_POST['username'];
  $password = $_POST['password'];
  
+//TO Verify if the username box contains a username or an email
+ $arroba = "@";
+$useremail = $_POST['username'];
+ 
+// Test if string contains the word 
+if(strpos($useremail, $arroba) !== false){
+    echo "es un email";
+} else{
+    echo "es un usuario, no un email";
+}
+ 
+ 
+ 
+ 
  $sql = "SELECT email FROM users WHERE email=? OR username=?";
  
  
