@@ -20,13 +20,13 @@ require 'dbconn.inc.php';
 	$queryn4 = '"'.$email.'");';	
 	
 	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
-	
-	$resultn = mysqli_query($conn,$queryn);
+	echo $queryn;
+	/*$resultn = mysqli_query($conn,$queryn);
 	$rown = mysqli_fetch_row($resultn);
 	$name = $rown[0];
  
  echo "este es el nombre del usuario":
- var_dump ($name);
+ echo $name;
   
   if (isset($username)) {
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
