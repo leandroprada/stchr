@@ -16,7 +16,7 @@ require 'dbconn.inc.php';
  
 	$queryn1 = "SELECT name FROM users WHERE (username = ";
 	$queryn2 = '"'.$username.'"';	
-	$queryn2 = ' OR email = ';	
+	$queryn3 = ' OR email = ';	
 	$queryn4 = '"'.$email.'");';	
 	
 	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
