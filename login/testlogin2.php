@@ -11,20 +11,13 @@ $useroremail = $_POST['username'];
 // Test if string contains the word 
 if(strpos($useroremail, $arroba) !== false){
     $email = $_POST['username'];
-	echo 'username ahora contiene un email'.$email;
 } else{
     $username = $_POST['username'];
-	echo 'username ahora contiene un usuario'.$username;
 }
+//$sql = "SELECT email FROM users WHERE email=? OR username=?";
  
- 
- 
- 
- //$sql = "SELECT email FROM users WHERE email=? OR username=?";
- 
- 
- //this code is to get the user name
- //SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
+//this code is to get the user name
+//SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
 
  
 	$queryn1 = "SELECT name FROM users WHERE (username = ";
@@ -37,11 +30,9 @@ if(strpos($useroremail, $arroba) !== false){
 	$resultn = mysqli_query($conn,$queryn);
 	$rown = mysqli_fetch_row($resultn);
 	$name = $rown[0];
- 
- echo "este es el nombre del usuario";
- echo $name;
   
-  if (isset($username) or isset($email)) {
+
+
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
 	
 	$query1 = "SELECT course FROM users WHERE username=";
@@ -70,7 +61,7 @@ if(strpos($useroremail, $arroba) !== false){
 			}
 	
 	echo "pasé por aca! y el valor de $row es".$coursesforthisuser;
-  }
+
   
  	
 
