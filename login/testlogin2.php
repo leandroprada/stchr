@@ -20,6 +20,8 @@ require 'dbconn.inc.php';
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
 	$coursesforthisuser = $rowx[0];
+	
+	echo "pasé por aca!";
   }
   
  	
