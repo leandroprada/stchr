@@ -24,6 +24,22 @@ require 'dbconn.inc.php';
 	$result = mysqli_query($conn,$query);
 	$row = mysqli_fetch_row($result);
 	$coursesforthisuser = $row[0];
+	$coursesforthisuser = explode(",",$coursesforthisuser);
+	foreach ($coursesforthisuser as $course_id) {
+		
+	$query3 = "SELECT course_name FROM courses WHERE course_id=";
+	$query4 = '"'.$course_id.'";';	
+	$queryc = $query3.$query4;
+	$resultc = mysqli_query($conn,$queryc);
+	$rowc = mysqli_fetch_row($resultc);
+	$courses_nameforthisuser = $rowc[0];
+		
+	Echo 'el numero de curso '.$course_id.' de este usuario, se corresponde con el curso '.$courses_nameforthisuser;
+		
+		
+		
+		
+	}
 	
 	echo "pasé por aca! y el valor de $row es".$coursesforthisuser;
   }
@@ -74,10 +90,7 @@ require 'dbconn.inc.php';
 						The course/s for this user are <?php  var_dump($coursesforthisuser); 
 						
 						
-						$coursesforthisuser = explode(",",$coursesforthisuser);
-						foreach ($coursesforthisuser as $curso) {
-							echo "<li>".$curso."</li>";
-						}
+						
 						
 						?>
 					</span>
