@@ -12,7 +12,7 @@ $arroba = "@";
 $useroremail = $_POST['username'];
  
 // Test if string contains the word 
-if(strpos($useremail, $arroba) !== false){
+if(strpos($useroremail, $arroba) !== false){
     $email = $_POST['username'];
 	echo username ahora contiene un email.$email;
 } else{
