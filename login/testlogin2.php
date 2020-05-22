@@ -35,7 +35,7 @@ if(strpos($useroremail, $arroba) !== false){
 
 	// This query below first gets the list of courses for that username, then queries the table courses, using that id
 	
-	$query1 = "SELECT course FROM users WHERE username=";
+	$query1 = "SELECT course FROM users WHERE (username=";
 	$query2 = '"'.$username.'"';	
 	$query3 = ' OR email = ';	
 	$query4 = '"'.$email.'");';	
@@ -46,9 +46,7 @@ if(strpos($useroremail, $arroba) !== false){
 	$coursesforthisuser = $row[0];
 	$coursesforthisuser = explode(",",$coursesforthisuser);
 	
-	
-	
-	
+		
 	foreach ($coursesforthisuser as $course_id) {
 			$query5 = "SELECT course_name FROM courses WHERE course_id=";
 			$query6 = '"'.$course_id.'";';	
