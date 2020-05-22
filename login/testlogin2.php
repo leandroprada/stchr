@@ -2,10 +2,7 @@
  session_start();
 
 require 'dbconn.inc.php';
-
- 
- 
- $password = $_POST['password'];
+$password = $_POST['password'];
  
 //TO Verify if the username box contains a username or an email
 $arroba = "@";
@@ -14,10 +11,10 @@ $useroremail = $_POST['username'];
 // Test if string contains the word 
 if(strpos($useroremail, $arroba) !== false){
     $email = $_POST['username'];
-	echo "username ahora contiene un email".$email;
+	echo 'username ahora contiene un email'.$email;
 } else{
     $username = $_POST['username'];
-	echo "username ahora contiene un usuario".$username;
+	echo 'username ahora contiene un usuario'.$username;
 }
  
  
