@@ -1,8 +1,8 @@
 <?php
  session_start();
 
-$firstname = $_SESSION['firstname']; 
-
+$name = $_SESSION['name']; 
+$courses = $_SESSION['courses'];
  ?>
  
  
@@ -74,8 +74,8 @@ $firstname = $_SESSION['firstname'];
     <section id="services" class="section">
       <div class="container">
         <div class="section-header"> 
-          <h2 class="section-title">Hola <?php echo $firstname;?>!</h2>
-          <span><?php echo $firstname;?></span>
+          <h2 class="section-title">Hola <?php echo $name;?>!</h2>
+          <span><?php echo $name;?></span>
           <p class="section-subtitle">En esta secci&oacute;n encontrar&aacute;s todo el contenido para nuestros subscriptores.</p>
         </div>
         <div class="row">
@@ -124,61 +124,97 @@ $firstname = $_SESSION['firstname'];
 
 <?php
 
-/*The code below parses course list and loops through it
+	//The code below parses course list and loops through it	
 	$courses = explode(",",$courses);
-	
-		
-	foreach ($courses as $course_id) {
-			$querycd1 = "SELECT course_name FROM courses WHERE course_id=";
-			$querycd2 = '"'.$course_id.'";';	
-			$querycd = $querycd1.$querycd2;
-			$resultcd = mysqli_query($conn,$querycd);
-			$rowcd = mysqli_fetch_row($resultcd);
-			$coursename = $rowcd[0];
-				
-			Echo 'el numero de curso '.$course_id.' de este usuario, se corresponde con el curso '.$courses_nameforthisuser;
-			}
-	
-	echo "pasé por aca! y el valor de $row es".$courses;*/
-
-
-
-
-
-/* En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario*/ 
+	foreach ($courses as $course_id) 
+	{
+		$querycd1 = "SELECT course_name FROM courses WHERE course_id=";
+		$querycd2 = '"'.$course_id.'";';	
+		$querycd = $querycd1.$querycd2;
+		$resultcd = mysqli_query($conn,$querycd);
+		$rowcd = mysqli_fetch_row($resultcd);
+		$coursename = $rowcd[0];
 			
-			if ($_SESSION['course'] == "default"){
+		
+		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
+	
+		if ($coursename != NULL {
+				if ($coursename == "default"){
+				echo '
+					<!-- Start Video promo Section -->
+						<section class="video-promo section">
+						 <div class="overlay"></div>
+						  <div class="container">
+							<div class="row">
+							  <div class="col-md-12 col-sm-12">
+								  <div class="video-promo-content text-center">
+										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">DEFAULT CONTENT</h2>
+								  </div>
+							  </div>
+							</div>
+						   </div>
+						</section>
+					<!-- End Video Promo Section -->';
+				include "resources_generico.php";
+				}
+				
+				else if ($course == "itavanzadomay20"){
 				echo '
 				<!-- Start Video promo Section -->
-
 					<section class="video-promo section">
-					 <div class="overlay"></div>
+					  <div class="overlay"></div>
 					  <div class="container">
 						<div class="row">
 						  <div class="col-md-12 col-sm-12">
-							
 							  <div class="video-promo-content text-center">
-									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No has participado de ning&uacute;n curso - Inscrib&iacute;te!</h2>
+									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>
+								 <iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							  </div>
 						  </div>
+
+						  <div class="col-md-12 col-sm-12">
+							  <div class="video-promo-content text-center">
+									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 16-MAY-2020</h2>
+									<iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-2.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+						  </div>
+						  
 						</div>
-					   </div>
-					  
+					  </div>
 					</section>
-
-				<!-- End Video Promo Section -->
-
-				
-				';
-				include "resources_generico.php";
+				<!-- End Video Promo Section -->';
 				}
-						
-			else if ($_SESSION['course'] != NULL) {
-				include "resources_by_curso.php";
+			
+				
+				else if ($coursename == "all"){
+				echo "Aca verás todos los cursos por ser del grupo";
 				}
 				
+				else{
+					echo '
+					<!-- Start Video promo Section -->
+						<section class="video-promo section">
+						 <div class="overlay"></div>
+						  <div class="container">
+							<div class="row">
+							  <div class="col-md-12 col-sm-12">
+								  <div class="video-promo-content text-center">
+										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No te has unido a ning&uacuten curso a&uacute;n.</h2>
+								  </div>
+							  </div>
+							</div>
+						   </div>
+						</section>
+					<!-- End Video Promo Section -->';
+
+				}
+				
+				
+			}
+			
 			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
-			 ?>    
+	}
+?>    
 		
 	
     <!-- Team section Start -->
