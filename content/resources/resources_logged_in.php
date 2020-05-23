@@ -159,79 +159,21 @@ $courses = $_SESSION['courses'];
 	
 		if ($coursename != NULL) {
 				if ($coursename == "generico"){
-				echo '
-					<!-- Start Video promo Section -->
-						<section class="video-promo section">
-						 <div class="overlay"></div>
-						  <div class="container">
-							<div class="row">
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">DEFAULT CONTENT</h2>
-								  </div>
-							  </div>
-							</div>
-						   </div>
-						</section>
-					<!-- End Video Promo Section -->';
-				include "resources_generico.php";
+					include "resources_generico.php";
 				}
 				
 				else if ($coursename == "itavanzadomay20"){
-				echo '
-				<!-- Start Video promo Section -->
-					<section class="video-promo section">
-					  <div class="overlay"></div>
-					  <div class="container">
-						<div class="row">
-						  <div class="col-md-12 col-sm-12">
-							  <div class="video-promo-content text-center">
-									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>
-								 <iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							  </div>
-						  </div>
-
-						  <div class="col-md-12 col-sm-12">
-							  <div class="video-promo-content text-center">
-									<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 16-MAY-2020</h2>
-									<iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-2.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							  </div>
-						  </div>
-						  
-						</div>
-					  </div>
-					</section>
-				<!-- End Video Promo Section -->';
+					include "resources_itavanzadomay20.php";
+				}
+				
+				else if ($coursename == "itbasicojun20"){
+					include "resources_itbasicojun20.php";
 				}
 			
+		}	
 				
-				else if ($coursename == "all"){
-				echo "Aca verás todos los cursos por ser del grupo";
+		else{ header("Location: ../../login/login.php?usergroup=unauthorized");
 				}
-				
-				else{
-					echo '
-					<!-- Start Video promo Section -->
-						<section class="video-promo section">
-						 <div class="overlay"></div>
-						  <div class="container">
-							<div class="row">
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No te has unido a ning&uacuten curso a&uacute;n.</h2>
-								  </div>
-							  </div>
-							</div>
-						   </div>
-						</section>
-					<!-- End Video Promo Section -->';
-
-				}
-				
-				
-			}
-			
-			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
 		
 	}
 ?>    
