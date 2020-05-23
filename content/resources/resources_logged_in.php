@@ -1,6 +1,6 @@
 <?php
  session_start();
- require 'dbconn.inc.php';
+require '../../login/dbconn.inc.php';
 
 $name = $_SESSION['name']; 
 $courses = $_SESSION['courses'];
@@ -124,7 +124,7 @@ $courses = $_SESSION['courses'];
     <!-- Services Section End -->
 
 <?php
-	
+
 	//The code below parses course list and loops through it	
 	$courses = explode(",",$courses);
 	foreach ($courses as $course_id) 
@@ -135,12 +135,12 @@ $courses = $_SESSION['courses'];
 		$resultcd = mysqli_query($conn,$querycd);
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
+			
 		
-		echo $coursename;
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	
-		/*
-			if ($coursename == "default"){
+		if ($coursename != NULL {
+				if ($coursename == "default"){
 				echo '
 					<!-- Start Video promo Section -->
 						<section class="video-promo section">
@@ -185,6 +185,11 @@ $courses = $_SESSION['courses'];
 					</section>
 				<!-- End Video Promo Section -->';
 				}
+			
+				
+				else if ($coursename == "all"){
+				echo "Aca verás todos los cursos por ser del grupo";
+				}
 				
 				else{
 					echo '
@@ -202,11 +207,14 @@ $courses = $_SESSION['courses'];
 						   </div>
 						</section>
 					<!-- End Video Promo Section -->';
+
 				}
 				
-	*/	
+				
+			}
+			
+			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
 	}
-	
 ?>    
 		
 	
