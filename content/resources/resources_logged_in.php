@@ -158,7 +158,7 @@ $courses = $_SESSION['courses'];
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	
 		if ($coursename != NULL) {
-				if ($coursename == "default"){
+				if ($coursename == "generico"){
 				echo '
 					<!-- Start Video promo Section -->
 						<section class="video-promo section">
