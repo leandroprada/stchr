@@ -3,7 +3,7 @@
 
 // This section sets the firstname to "usuario" if the name is not in the session variable
 if ($_SESSION['name'] != NULL) {
-	$_SESSION['firstname'] =  "usuario";
+	$_SESSION['name'] =  "usuario";
 	
 }
 
