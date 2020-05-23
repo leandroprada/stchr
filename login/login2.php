@@ -42,57 +42,6 @@ $password = $_POST['password'];
 	
 
 
-
-/* $email = $_POST['username'];
- $username = $_POST['username'];
- $password = $_POST['password'];
- 
- 
- 
- 
- //this code is to get the user name
- 
-  if (isset($email)) {
-	$query1 = "SELECT name FROM users WHERE email=";
-	$query2 = '"'.$username.'";';	
-	$query = $query1.$query2;
-	$result = mysqli_query($conn,$query);
-	$row = mysqli_fetch_row($result);
-	$userloggedemail = $row[0];
-  }
-  
-  if (isset($username)) {
-	$query3 = "SELECT name FROM users WHERE username=";
-	$query4 = '"'.$username.'";';	
-	$queryx = $query3.$query4;
-	$resultx = mysqli_query($conn,$queryx);
-	$rowx = mysqli_fetch_row($resultx);
-	$userloggedname = $rowx[0];
-  }
-  
-  if (isset($email)) {
-	$query5 = "SELECT course FROM users WHERE email=";
-	$query6 = '"'.$username.'";';	
-	$queryy = $query5.$query6;
-	$resulty = mysqli_query($conn,$queryy);
-	$rowy = mysqli_fetch_row($resulty);
-	$userloggedbyemailcourse = $rowy[0];
-  }
-  
-  if (isset($username)) {
-	$query7 = "SELECT course FROM users WHERE username=";
-	$query8 = '"'.$username.'";';	
-	$queryz = $query7.$query8;
-	$resultz = mysqli_query($conn,$queryz);
-	$rowz = mysqli_fetch_row($resultz);
-	$userloggedbyeusernamecourse = $rowz[0];
-  }
-	
-
- 
- 
-*/
-
 //Here we perform the login
 $stmt = mysqli_stmt_init($conn);
 $sql = "SELECT email FROM users WHERE email=? OR username=?";
