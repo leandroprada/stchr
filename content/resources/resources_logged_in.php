@@ -203,7 +203,7 @@ $courses = $_SESSION['courses'];
 					<!-- End Video Promo Section -->';
 				}
 				
-			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
+		
 	}
 	
 ?>    
