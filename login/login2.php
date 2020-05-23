@@ -4,32 +4,11 @@
 require 'dbconn.inc.php';
 $password = $_POST['password'];
 
-
-//TO Verify if the username box contains a username or an email
-$arroba = "@";
-$useroremail = $_POST['username'];
+ $email = $_POST['username'];
+ $username = $_POST['username'];
+ $password = $_POST['password'];
  
-// Test if string contains the word 
-if(strpos($useroremail, $arroba) !== false){
-    $email = $_POST['username'];
-} else{
-    $username = $_POST['username'];
- 
-$sql = "SELECT email FROM users WHERE email=? OR username=?";
- 
- 
- //this code is to get the user name
-//SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
-	$queryn1 = "SELECT name FROM users WHERE (username = ";
-	$queryn2 = '"'.$username.'"';	
-	$queryn3 = ' OR email = ';	
-	$queryn4 = '"'.$email.'");';	
-	
-	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
-	echo $queryn;
-	$resultn = mysqli_query($conn,$queryn);
-	$rown = mysqli_fetch_row($resultn);
-	$name = $rown[0];
+ $sql = "SELECT email FROM users WHERE email=? OR username=?";
  
  
  //this code is to get the user name
@@ -89,10 +68,6 @@ $sql = "SELECT email FROM users WHERE email=? OR username=?";
 		  if ($resultCheck >= 1) { 
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-				$_SESSION['name'] = $name;
-				
-				
-				
 				$_SESSION['userloggedname'] = $userloggedname;
 				$_SESSION['userloggedemail'] = $userloggedemail;
 				$_SESSION['userloggedbyemailcourse'] = $userloggedbyemailcourse;
