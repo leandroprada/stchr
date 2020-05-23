@@ -2,12 +2,16 @@
  session_start();
 $_SESSION['username'] = $_POST['username'];
 $_SESSION['email'] = $_POST['email'];
-/* This section sets the firstname to session coming from user's name logged in either by email or username*/
-if ($_SESSION['name'] != NULL) {
-	$_SESSION['firstname'] = $_SESSION['name'];
+/* This section sets the firstname to session coming from user logged in either by email or username*/
+if ($_SESSION['userloggedname'] != NULL) {
+	$_SESSION['firstname'] = $_SESSION['userloggedname'];
+	
 }
 
-elseif ($_SESSION['name'] == NULL){
+if ($_SESSION['userloggedemail'] != NULL) {
+	$_SESSION['firstname'] =  $_SESSION['userloggedemail'];
+}
+elseif ($_SESSION['userloggedemail'] == NULL){
 	$_SESSION['firstname'] =  "usuario";
 }
 
