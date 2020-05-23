@@ -134,17 +134,13 @@ $courses = $_SESSION['courses'];
 		$resultcd = mysqli_query($conn,$querycd);
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
-			
 		
+		echo $coursename
+	
+	}	
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	
-		if ($coursename != NULL{
-		 echo $coursename;
-		}
-		else {
-		echo 'COURSE NAME IS NULL';
-		}
-	}
+		
 /*				if ($coursename == "default"){
 				echo '
 					<!-- Start Video promo Section -->
