@@ -136,9 +136,10 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
+			echo $coursename;
 		
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
-	
+	/*
 		if ($coursename != NULL {
 				if ($coursename == "default"){
 				echo '
@@ -214,6 +215,7 @@ $courses = $_SESSION['courses'];
 			}
 			
 			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
+			*/
 	}
 ?>    
 		
