@@ -1,6 +1,6 @@
 <?php
  session_start();
-require '../../login/dbconn.inc.php';
+require '../../../login/dbconn.inc.php';
 
 $name = $_SESSION['name']; 
 $courses = $_SESSION['courses'];
