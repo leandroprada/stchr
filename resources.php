@@ -13,6 +13,6 @@ if ($_SESSION['login'] == "validated") {
 else {
 	include "./content/resources/resources_not_logged_in.php";
 	}
-*/
+
 
 ?>
