@@ -136,27 +136,10 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
-			switch ($coursename) {
-			  case "generico":
-				echo "Your favorite color is red!";
-				break;
-			  case "itavanzadomay20":
-				echo "Your favorite color is blue!";
-				break;
-			  case "itbasicojun20":
-				echo "Your favorite color is green!";
-				break;
-			  default:
-				echo "Your favorite color is neither red, blue, nor green!";
-			}
-			
-			
-		
-		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
-	/*
-		if ($coursename != NULL {
-				if ($coursename == "default"){
-				echo '
+			if ($coursename != NULL {
+				switch ($coursename) {
+				  case "generico":
+					echo '
 					<!-- Start Video promo Section -->
 						<section class="video-promo section">
 						 <div class="overlay"></div>
@@ -172,6 +155,24 @@ $courses = $_SESSION['courses'];
 						</section>
 					<!-- End Video Promo Section -->';
 				include "resources_generico.php";
+				  case "itavanzadomay20":
+					echo "Your favorite color is blue!";
+					break;
+				  case "itbasicojun20":
+					echo "Your favorite color is green!";
+					break;
+				  default:
+					echo "Your favorite color is neither red, blue, nor green!";
+				}
+			}
+			
+			
+		
+		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
+	/*
+		if ($coursename != NULL {
+				if ($coursename == "default"){
+				
 				}
 				
 				else if ($coursename == "itavanzadomay20"){
