@@ -136,7 +136,6 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
-			echo $coursename;
 			
 			if ($coursename == "default"){
 				echo 'estoy en curso default';
