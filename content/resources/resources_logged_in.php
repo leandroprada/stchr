@@ -158,7 +158,7 @@ $courses = $_SESSION['courses'];
 				include "resources_generico.php";
 				}
 				
-				else if ($course == "itavanzadomay20"){
+				else if ($coursename == "itavanzadomay20"){
 				echo '
 				<!-- Start Video promo Section -->
 					<section class="video-promo section">
