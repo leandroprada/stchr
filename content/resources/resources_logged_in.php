@@ -138,8 +138,13 @@ $courses = $_SESSION['courses'];
 		
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	
-		
-				if ($coursename == "default"){
+		if ($coursename != NULL{
+		 echo $coursename;
+		}
+		else {
+		echo 'COURSE NAME IS NULL';
+		}
+/*				if ($coursename == "default"){
 				echo '
 					<!-- Start Video promo Section -->
 						<section class="video-promo section">
@@ -214,6 +219,7 @@ $courses = $_SESSION['courses'];
 			
 			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
 	}
+	*/
 ?>    
 		
 	
