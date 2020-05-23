@@ -140,13 +140,13 @@ $courses = $_SESSION['courses'];
 				switch ($coursename) {
 				  case "generico":
 					echo "Your favorite color is red!";
-					
+					break;
 				  case "itavanzadomay20":
 					echo "Your favorite color is blue!";
-					
+					break;
 				  case "itbasicojun20":
 					echo "Your favorite color is green!";
-					
+					break;
 				  default:
 					echo "Your favorite color is neither red, blue, nor green!";
 				}
