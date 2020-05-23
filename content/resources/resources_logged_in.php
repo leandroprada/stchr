@@ -137,6 +137,17 @@ $courses = $_SESSION['courses'];
 		$coursename = $rowcd[0];
 			
 			echo $coursename;
+			
+			if ($coursename == "default"){
+				echo 'estoy en curso default';
+			}
+			
+			if ($coursename == "itavanzadomay20"){
+				echo 'estoy en curso itavanzadomay20';
+			}
+			
+			
+			
 		
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	/*
