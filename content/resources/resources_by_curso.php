@@ -1,6 +1,6 @@
 <?php
  session_start();
-/*
+
 $firstname = $_SESSION['firstname']; 
 $course = $_SESSION['course'];
 
