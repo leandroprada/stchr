@@ -144,6 +144,7 @@ $courses = $_SESSION['courses'];
 		else {
 		echo 'COURSE NAME IS NULL';
 		}
+	}
 /*				if ($coursename == "default"){
 				echo '
 					<!-- Start Video promo Section -->
