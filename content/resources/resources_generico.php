@@ -11,8 +11,7 @@
               <div class="video-promo-content text-center">
 				<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Contenido exclusivo</h2>
                 <iframe width="75%"	 height="450px" src="https://www.youtube.com/embed/uQ8W_Zpm1Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Presentaci&oacute;n</h2>
-                <p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Son s&oacute;lo dos minutos</p>
+                
               </div>
           </div>
         </div>
