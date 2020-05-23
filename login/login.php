@@ -112,7 +112,7 @@
 					</div>
 
 					<span class="txt1 p-b-11">
-						Contrase&tilden;a
+						Contrase&ntilde;a
 					</span>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
 						<span class="btn-show-pass">
