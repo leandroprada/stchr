@@ -114,6 +114,7 @@ $sql = "SELECT email FROM users WHERE email=? OR username=?";
 				$_SESSION['name'] = $name;
 				$_SESSION['username'] = $username;
 				$_SESSION['password'] = $password;
+				$_SESSION['courses'] = $courses;
 				
 			   header("Location: ../resources.php?userlogon=true");
 		  }
