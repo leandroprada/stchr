@@ -136,7 +136,7 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
-			if ($coursename != NULL {
+			
 				switch ($coursename) {
 				  case "generico":
 					echo "Your favorite color is red!";
@@ -150,7 +150,7 @@ $courses = $_SESSION['courses'];
 				  default:
 					echo "Your favorite color is neither red, blue, nor green!";
 				}
-			}
+			
 	
 			
 		
