@@ -2,7 +2,7 @@
  session_start();
 
 // This section sets the firstname to "usuario" if the name is not in the session variable
-if ($_SESSION['name'] != NULL) {
+if ($_SESSION['name'] == NULL) {
 	$_SESSION['name'] =  "usuario";
 	
 }
