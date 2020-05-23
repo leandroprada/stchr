@@ -137,7 +137,7 @@ $courses = $_SESSION['courses'];
 		$coursename = $rowcd[0];
 			
 			switch ($coursename) {
-			  case "default":
+			  case "generico":
 				echo "Your favorite color is red!";
 				break;
 			  case "itavanzadomay20":
