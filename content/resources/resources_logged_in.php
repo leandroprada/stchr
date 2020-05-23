@@ -136,78 +136,27 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
+			/*este switch funciona!
 			
 				switch ($coursename) {
 				  case "generico":
-					echo '
-					<!-- Start Video promo Section -->
-						<section class="video-promo section">
-						 <div class="overlay"></div>
-						  <div class="container">
-							<div class="row">
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">DEFAULT CONTENT</h2>
-								  </div>
-							  </div>
-							</div>
-						   </div>
-						</section>
-					<!-- End Video Promo Section -->';
-					
+					echo "Your favorite color is red!";
 					break;
 				  case "itavanzadomay20":
-					echo '
-					<!-- Start Video promo Section -->
-						<section class="video-promo section">
-						  <div class="overlay"></div>
-						  <div class="container">
-							<div class="row">
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>
-									 <iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								  </div>
-							  </div>
-
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 16-MAY-2020</h2>
-										<iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-2.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								  </div>
-							  </div>
-							  
-							</div>
-						  </div>
-						</section>
-					<!-- End Video Promo Section -->';
+					echo "Your favorite color is blue!";
 					break;
 				  case "itbasicojun20":
 					echo "Your favorite color is green!";
 					break;
 				  default:
-					echo echo '
-					<!-- Start Video promo Section -->
-						<section class="video-promo section">
-						 <div class="overlay"></div>
-						  <div class="container">
-							<div class="row">
-							  <div class="col-md-12 col-sm-12">
-								  <div class="video-promo-content text-center">
-										<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">No te has unido a ning&uacuten curso a&uacute;n.</h2>
-								  </div>
-							  </div>
-							</div>
-						   </div>
-						</section>
-					<!-- End Video Promo Section -->';
+					echo "Your favorite color is neither red, blue, nor green!";
 				}
-			
+			*/
 	
 			
 		
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
-	/*
+	
 		if ($coursename != NULL {
 				if ($coursename == "default"){
 				echo '
@@ -283,7 +232,7 @@ $courses = $_SESSION['courses'];
 			}
 			
 			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
-			*/
+		
 	}
 ?>    
 		
