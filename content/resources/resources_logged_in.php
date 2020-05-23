@@ -1,11 +1,9 @@
 <?php
  session_start();
-require '/login/dbconn.inc.php';
+require 'dbconn.inc.php';
 
 $name = $_SESSION['name']; 
 $courses = $_SESSION['courses'];
-
-echo $dbName;
  ?>
  
  
@@ -126,7 +124,7 @@ echo $dbName;
     <!-- Services Section End -->
 
 <?php
-/*
+
 	//The code below parses course list and loops through it	
 	$courses = explode(",",$courses);
 	foreach ($courses as $course_id) 
@@ -525,4 +523,3 @@ alt="Web Analytics"></a></div></noscript>
 
   </body>
 </html>
-*/?>
