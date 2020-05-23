@@ -8,7 +8,8 @@ if ($_SESSION['name'] != NULL) {
 }
 
 if ($_SESSION['login'] == "validated") {
-	include "./content/resources/resources_logged_in.php";
+//	include "./content/resources/resources_logged_in.php";
+	echo "logged in content";
 	}
 else {
 	include "./content/resources/resources_not_logged_in.php";
