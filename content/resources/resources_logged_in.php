@@ -136,15 +136,19 @@ $courses = $_SESSION['courses'];
 		$rowcd = mysqli_fetch_row($resultcd);
 		$coursename = $rowcd[0];
 			
-			
-			if ($coursename == "default"){
-				echo 'estoy en curso default';
+			switch ($coursename) {
+			  case "default":
+				echo "Your favorite color is red!";
+				break;
+			  case "itavanzadomay20":
+				echo "Your favorite color is blue!";
+				break;
+			  case "itbasicojun20":
+				echo "Your favorite color is green!";
+				break;
+			  default:
+				echo "Your favorite color is neither red, blue, nor green!";
 			}
-			
-			if ($coursename == "itavanzadomay20"){
-				echo 'estoy en curso itavanzadomay20';
-			}
-			
 			
 			
 		
