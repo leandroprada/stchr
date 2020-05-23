@@ -104,7 +104,7 @@
 					</span>
 
 					<span class="txt1 p-b-11">
-						Email
+						Email o Usuario
 					</span>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
 						<input class="input100" type="text" name="username" >
@@ -112,7 +112,7 @@
 					</div>
 
 					<span class="txt1 p-b-11">
-						Password
+						Contrase&tilden;a
 					</span>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
 						<span class="btn-show-pass">

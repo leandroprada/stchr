@@ -4,7 +4,46 @@
 require 'dbconn.inc.php';
 $password = $_POST['password'];
 
- $email = $_POST['username'];
+	//TO Verify if the username box contains a username or an email
+	$arroba = "@";
+	$useroremail = $_POST['username'];
+	 	// Test if string contains the word 
+		if(strpos($useroremail, $arroba) !== false){
+			$email = $_POST['username'];
+		} else{
+			$username = $_POST['username'];
+		}
+
+//Sample mysql sentence: SELECT name FROM users WHERE (username = "lprada" OR email = NULL);
+	$queryn1 = "SELECT name FROM users WHERE (username = ";
+	$queryn2 = '"'.$username.'"';	
+	$queryn3 = ' OR email = ';	
+	$queryn4 = '"'.$email.'");';	
+	
+	$queryn = $queryn1.$queryn2.$queryn3.$queryn4;
+	echo $queryn;
+	$resultn = mysqli_query($conn,$queryn);
+	$rown = mysqli_fetch_row($resultn);
+	$name = $rown[0];
+  
+
+
+	// This query below first gets the list of courses for that username, then queries the table courses, using that id
+	$queryc1 = "SELECT course FROM users WHERE (username=";
+	$queryc2 = '"'.$username.'"';	
+	$queryc3 = ' OR email = ';	
+	$queryc4 = '"'.$email.'");';	
+	
+	$queryc = $queryc1.$queryc2.$queryc3.$queryc4;
+	$resultc = mysqli_query($conn,$queryc);
+	$rowc = mysqli_fetch_row($resultc);
+	$courses = $row[0];
+	
+	
+
+
+
+/* $email = $_POST['username'];
  $username = $_POST['username'];
  $password = $_POST['password'];
  
@@ -52,7 +91,7 @@ $password = $_POST['password'];
 
  
  $stmt = mysqli_stmt_init($conn);
-
+*/
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
 	  echo "Cannot access database";
@@ -68,10 +107,9 @@ $password = $_POST['password'];
 		  if ($resultCheck >= 1) { 
 				$_SESSION['login'] = "validated";
 				$_SESSION['email'] = $email;
-				$_SESSION['userloggedname'] = $userloggedname;
-				$_SESSION['userloggedemail'] = $userloggedemail;
-				$_SESSION['userloggedbyemailcourse'] = $userloggedbyemailcourse;
-				$_SESSION['userloggedbyeusernamecourse'] = $userloggedbyeusernamecourse;
+				$_SESSION['name'] = $name;
+				$_SESSION['username'] = $username;
+				$_SESSION['password'] = $password;
 				
 			   header("Location: ../resources.php?userlogon=true");
 		  }
