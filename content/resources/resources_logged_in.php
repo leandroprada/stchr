@@ -154,7 +154,7 @@ $courses = $_SESSION['courses'];
 						   </div>
 						</section>
 					<!-- End Video Promo Section -->';
-				include "resources_generico.php";
+				
 				  case "itavanzadomay20":
 					echo "Your favorite color is blue!";
 					break;
