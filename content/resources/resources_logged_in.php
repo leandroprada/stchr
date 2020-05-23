@@ -123,6 +123,28 @@ $firstname = $_SESSION['firstname'];
     <!-- Services Section End -->
 
 <?php
+
+/*The code below parses course list and loops through it
+	$courses = explode(",",$courses);
+	
+		
+	foreach ($courses as $course_id) {
+			$querycd1 = "SELECT course_name FROM courses WHERE course_id=";
+			$querycd2 = '"'.$course_id.'";';	
+			$querycd = $querycd1.$querycd2;
+			$resultcd = mysqli_query($conn,$querycd);
+			$rowcd = mysqli_fetch_row($resultcd);
+			$coursename = $rowcd[0];
+				
+			Echo 'el numero de curso '.$course_id.' de este usuario, se corresponde con el curso '.$courses_nameforthisuser;
+			}
+	
+	echo "pasé por aca! y el valor de $row es".$courses;*/
+
+
+
+
+
 /* En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario*/ 
 			
 			if ($_SESSION['course'] == "default"){

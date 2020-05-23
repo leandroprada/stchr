@@ -47,7 +47,7 @@ $password = $_POST['password'];
  $username = $_POST['username'];
  $password = $_POST['password'];
  
- $sql = "SELECT email FROM users WHERE email=? OR username=?";
+ 
  
  
  //this code is to get the user name
@@ -90,8 +90,12 @@ $password = $_POST['password'];
 	
 
  
- $stmt = mysqli_stmt_init($conn);
+ 
 */
+
+//Here we perform the login
+$stmt = mysqli_stmt_init($conn);
+$sql = "SELECT email FROM users WHERE email=? OR username=?";
  if (!mysqli_stmt_prepare($stmt, $sql)){
 	  header("Location: login.php?error=wrongusername");
 	  echo "Cannot access database";
