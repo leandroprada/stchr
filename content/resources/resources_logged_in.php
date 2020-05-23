@@ -123,7 +123,7 @@ $courses = $_SESSION['courses'];
     <!-- Services Section End -->
 
 <?php
-
+/*
 	//The code below parses course list and loops through it	
 	$courses = explode(",",$courses);
 	foreach ($courses as $course_id) 
@@ -213,7 +213,7 @@ $courses = $_SESSION['courses'];
 			}
 			
 			else header("Location: ../../login/login.php?usergroup=unauthorized"); 
-	}
+	}*/
 ?>    
 		
 	
