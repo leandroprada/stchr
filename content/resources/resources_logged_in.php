@@ -123,7 +123,8 @@ $courses = $_SESSION['courses'];
     <!-- Services Section End -->
 
 <?php
-
+echo $courses;
+/*	
 	//The code below parses course list and loops through it	
 	$courses = explode(",",$courses);
 	foreach ($courses as $course_id) 
@@ -141,7 +142,7 @@ $courses = $_SESSION['courses'];
 		// En el contenido de esta seccion es dinamico de acuerdo al grupo al que pertenece cada usuario
 	
 		
-/*				if ($coursename == "default"){
+			if ($coursename == "default"){
 				echo '
 					<!-- Start Video promo Section -->
 						<section class="video-promo section">
