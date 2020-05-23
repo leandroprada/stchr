@@ -37,7 +37,7 @@ $password = $_POST['password'];
 	$queryc = $queryc1.$queryc2.$queryc3.$queryc4;
 	$resultc = mysqli_query($conn,$queryc);
 	$rowc = mysqli_fetch_row($resultc);
-	$courses = $row[0];
+	$courses = $rowc[0];
 	
 	
 
