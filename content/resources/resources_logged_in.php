@@ -154,7 +154,7 @@ $courses = $_SESSION['courses'];
 						   </div>
 						</section>
 					<!-- End Video Promo Section -->';
-					include "resources_generico.php";
+					
 					break;
 				  case "itavanzadomay20":
 					echo '
