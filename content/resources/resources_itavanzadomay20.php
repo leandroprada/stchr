@@ -16,8 +16,15 @@
 
 			  <div class="col-md-12 col-sm-12">
 				  <div class="video-promo-content text-center">
-						<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 16-MAY-2020</h2>
+						<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado Clase 2 16-MAY-2020</h2>
 						<iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-2.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				  </div>
+			  </div>
+			  
+			    <div class="col-md-12 col-sm-12">
+				  <div class="video-promo-content text-center">
+						<h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado &Uacute;ltima Clase 24-MAY-2020</h2>
+						<iframe width="75%" height="315" src="/content/resources/videos/itavanzadomay20-3.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				  </div>
 			  </div>
 			  
