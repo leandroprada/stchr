@@ -10,10 +10,10 @@
 		  <div class="col-md-12 col-sm-12">
 			  <div class="video-promo-content text-center">
 				<ul>
-					<li style="text-decoration:none;padding-bottom:10px; "><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver </a><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2>							
+					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020</h2><a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver </a>							
 						<div class="collapse list-unstyled" id="telecomSubmenu2">
-							<h3 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Avaya CPaaS API webinar</h3>
-							<video width="75%" height="450px"  controls>
+							
+							<video width="100%" height="450px"  controls>
 							  <source src="content/resources/videos/itavanzadomay20-1.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 							</video>
