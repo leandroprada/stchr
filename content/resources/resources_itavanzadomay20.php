@@ -8,7 +8,7 @@
 	  <div class="container">
 		<div class="row">
 		  <div class="col-md-12 col-sm-12">
-			  <div class="video-promo-content text-center">
+			  <div class=" text-center">
 				<ul>
 					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado 09-MAY-2020 <a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 						<div class="collapse list-unstyled" id="telecomSubmenu2">
@@ -27,7 +27,7 @@
 							</video>
 						</div>
 					</li>
-					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado &Uacute;ltima Clase 24-MAY-2020 <a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-suinfoccess btn-lg"  style="color:white;">Ver </a> </h2>
+					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT Avanzado &Uacute;ltima Clase 24-MAY-2020 <a  href="#telecomSubmenu2" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver </a> </h2>
 						<div class="collapse list-unstyled" id="telecomSubmenu2">
 													
 							<video width="75%" height="450px"  controls>
