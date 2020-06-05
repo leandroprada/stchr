@@ -1001,7 +1001,9 @@ button:focus {
   background: url(../img/bg/video.jpg);
   position: relative;
 }
-
+.video-course {
+background = url(../img/bg/video1.jpg);
+}
 .video-promo .video-promo-content {
   color: #fff;
 }
