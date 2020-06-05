@@ -7,7 +7,7 @@
 
  <!-- Start Video promo Section -->
 		<section class="video-promo section">
-		  <div class="overlay"></div>
+		  <div class="overlay-course"></div>
 		  <div class="container">
 			<div class="row">
 			  <div class="col-md-12 col-sm-12">
