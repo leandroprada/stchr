@@ -3,7 +3,7 @@
  ?>
  
  <!-- Start Video promo Section -->
-	<section class="video-promo section">
+	<section class="video-courses section">
 		<div class="overlay"></div>
 	  <div class="container" >
 		<div class="row">
