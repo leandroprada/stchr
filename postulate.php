@@ -69,7 +69,7 @@
                 <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
               </li>
 			  <li class="nav-item">
-                <a class="nav-link page-scroll" href="./postulate.html">Postulate</a>
+                <a class="nav-link page-scroll" href="./postulate.php">Postulate</a>
               </li>
              <!--  <li class="nav-item">
                 <a class="nav-link page-scroll" href="#blog">Blog</a>
