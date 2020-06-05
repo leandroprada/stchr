@@ -3,9 +3,9 @@
  ?>
  
  <!-- Start Video promo Section -->
-	<section class="section">
+	<section class="video-promo section">
 		<div class="overlay"></div>
-	  <div class="container">
+	  <div class="container" >
 		<div class="row">
 		  <div class="col-md-12 col-sm-12">
 			  <div class="video-promo-content text-center">
