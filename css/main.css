@@ -1031,42 +1031,6 @@ button:focus {
 }
 
 /* ==========================================================================
- Video courses Style
- ========================================================================== */
-.video-courses {
-  /* background: url(../img/bg/video.jpg); */
-  position: relative;
-}
-
-.video-courses .video-courses-content {
-  color: #fff;
-}
-
-
-.video-courses .video-courses-content .video-popup {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  border: 3px solid #fff;
-  color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 26px;
-}
-
-.video-courses .video-courses-content h2 {
-  /* margin-top: 30px; */
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.video-courses .video-courses-content p {
-  color: #fff;
-}
-
-/* ==========================================================================
    Portfolio Section
    ========================================================================== */
 #portfolios {
