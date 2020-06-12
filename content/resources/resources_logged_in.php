@@ -138,7 +138,7 @@ $courses = $_SESSION['courses'];
 			
 			/*este switch funciona!
 			
-				switch ($coursename) {
+				switch ($coursename) { 
 				  case "generico":
 					echo "Your favorite color is red!";
 					break;
