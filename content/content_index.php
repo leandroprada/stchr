@@ -1101,7 +1101,7 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
             <img src="img/clients/img6.png" alt="">
           </div>
 		    <div class="client-item-wrapper">
-            <img src="img/clients/img11.png" alt="">
+            <img src="img/clients/img12.png" alt="">
           </div>
           <div class="client-item-wrapper">
             <img src="img/clients/img9.png" alt="">
@@ -1117,6 +1117,9 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
           </div>
           <div class="client-item-wrapper">
             <img src="img/clients/img5.png" alt="">
+          </div>
+		  <div class="client-item-wrapper">
+            <img src="img/clients/img11.png" alt="">
           </div>
 		  <div class="client-item-wrapper">
             <img src="img/clients/img2.png" alt="">
