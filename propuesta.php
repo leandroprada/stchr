@@ -138,16 +138,11 @@
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/propuesta/propuesta1.png" alt="" />
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/propuesta/propuesta1.png"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">Ver Curso</a>
-                    </div>
-                  </div>
-                </div>
+              </div>
+            </div>
+			<div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/propuesta/propuesta2.png" alt="" />
               </div>
             </div>
           </div>
