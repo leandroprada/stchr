@@ -134,7 +134,7 @@
        
 
         <div class="row pricing-tables">
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="offset-lg-3 col-lg-6 offset-md-3 col-md-6 col-xs-12">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/propuesta/propuesta1.png" alt="" />
@@ -142,7 +142,7 @@
             </div>
           </div>
 		  
-		  <div class="col-lg-6 col-md-6 col-xs-12">
+		  <div class="offset-lg-3 col-lg-6 offset-md-3 col-md-6 col-xs-12">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/propuesta/propuesta2.png" alt="" />
