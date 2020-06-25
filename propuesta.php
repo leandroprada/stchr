@@ -134,82 +134,43 @@
        
 
         <div class="row pricing-tables">
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <h2>Est&aacute;ndar</h2>
-                <div class="price"><i class="lni-star-empty"></i></div>
-                <ul>
-                  <li>Publicaci&oacute;n de aviso gratis en redes profesionales y redes sociales con logo de STC HR</li>
-                  <li>Reclutamiento en diversas fuentes</li>
-                  <li>Entrevistas a cargo de un profesional de RRHH</li>
-                  <li>Elaboraci&oacute;n de informes post-entrevista</li>
-                  <li>Derivaci&oacute;n de candidatos que se ajusten al perfil solicitado por la empresa</li>
-                  <li>Garant&iacute;a ante la renuncia o desvinculaci&oacute;n del candidato: <span class="price">30</span> d&iacute;as</li>
-                  <li> - </li>
-                  <!-- <li> ¡Incluye examen psicot&eacute;cnico! </li>   -->
-                </ul>
-				
-				<div class="price"><span>Costo: </span>0.5<span>sueldo bruto del perfil a cubrir</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#contactenos" class="btn btn-common btn-effect">Obtenga su Plan</a>
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/propuesta/propuesta1.png" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/propuesta/propuesta1.png"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+		  <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/propuesta/propuesta2.png" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/propuesta/propuesta2.png"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table pricing-big">
-              <div class="pricing-details">
-                <h2>Avanzado</h2>
-                <div class="price"><i class="lni-star"></i><i class="lni-star"></i></div>
-                <ul>
-                  <li>Publicaci&oacute;n de aviso gratis en redes profesionales y redes sociales con logo de STC HR</li>
-                  <li>Reclutamiento en diversas fuentes</li>
-                  <li>Entrevistas a cargo de un profesional de RRHH</li>
-                  <li>Elaboraci&oacute;n de informes post-entrevista</li>
-                  <li>Derivaci&oacute;n de candidatos que se ajusten al perfil solicitado por la empresa</li>
-                  <li>Garant&iacute;a ante la renuncia o desvinculaci&oacute;n del candidato: <span class="price">90</span> d&iacute;as</li>
-                  <li> - </li>
-                  <li> ¡Incluye examen psicot&eacute;cnico! </li> 
-                </ul>
-				<div class="price"><span>Costo: </span>1<span>sueldo bruto del perfil a cubrir</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#contactenos" class="btn btn-common btn-effect">Cont&aacute;ctenos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <h2>Premium</h2>
-                <div class="price"><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i></div>
-                <ul>
-                  <li>45 d&iacute;as de publicaci&oacute;n en redes sociales: Facebook, Instagram, Twitter y Linkedin</li>
-                  <li>Asesoramiento en la redacci&oacute;n del aviso</li>
-                  <li>B&uacute;squeda de CV en la base de datos mediante m&uacute;ltiples opciones de filtro</li>
-                  <li>Derivaci&oacute;n de los candidatos potenciales que se postulan (si cumplen con el perfil solicitado).</li>
-                  <li>Incluye la siguiente informaci&oacute;n de los candidatos: 
-				   <ul>
-				   <li> inter&eacute;s en la propuesta </li>
-				   <li> situaci&oacute;n laboral </li>
-				   <li> “pre-screening” de  background t&eacute;cnico </li>
-				   <li> remuneraci&oacute;n pretendida </li>
-				   </ul>
-				  
-                  <li>Garant&iacute;a ante la renuncia o desvinculaci&oacute;n del candidato: <span class="price">120</span> d&iacute;as</li>
-                  <li> - </li>
-                  <li> ¡Incluye examen psicot&eacute;cnico! </li>
-                </ul>
-				<div class="price"><span>Costo: </span>1.5<span>sueldo bruto del perfil a cubrir</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#contactenos" class="btn btn-common btn-effect">Cont&aacute;ctenos</a>
-              </div>
-            </div>
-          </div>
+          
 
         </div>
       </div>
