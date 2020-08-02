@@ -46,7 +46,7 @@
 								<div class="collapse list-unstyled" id="submenubasicojul3">
 									
 									<video width="100%" height="450px"  controls>
-									  <source src="content/resources/videos/itbasicoJUL20-3.mp4" type="video/mp4">
+									  <source src="content/resources/videos/itbasicojul20-3.mp4" type="video/mp4">
 									Your browser does not support the video tag.
 									</video>
 								</div>
