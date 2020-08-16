@@ -76,7 +76,7 @@
 	  
 	  <!--  <div id="curso" style="padding-top:60px;" class=" center lg-col-3 md-col-4 xs-col-6">
          <div class="xs-center curso">
-		 <img class="curso" src="img/novedades/selecciónITAbril2020.jpeg" alt="">
+		 <img class="curso" src="img/novedades/seleccionITAbril2020.jpeg" alt="">
 		 </div>
       </div>  
 	   -->
@@ -120,12 +120,12 @@
 		 <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg" alt="" />
+                <img src="img/novedades/seleccionITAvanzadoAbril2020-1.jpeg" alt="" />
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
@@ -134,6 +134,58 @@
               </div>
             </div>
           </div> -->
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/novedades/seleccionITAvanzadoAgosto2020.jpeg" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/novedades/seleccionITAvanzadoAgosto2020-2.jpeg" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020-2.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/novedades/seleccionITAvanzadoAgosto2020-3.gif" alt="" />
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020-3.gif"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Ver Curso</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
         <div id="portfolio" class="row">
           <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
@@ -172,12 +224,12 @@
 		  <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg" alt="" />
+                <img src="img/novedades/seleccionITAvanzadoAbril2020-1.jpeg" alt="" />
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAbril2020-1.jpeg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
@@ -189,12 +241,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/novedades/selecciónITAvanzadoAbril2020.jpeg" alt="" />
+                <img src="img/novedades/seleccionITAvanzadoAbril2020.jpeg" alt="" />
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAbril2020.jpeg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
@@ -206,12 +258,12 @@
           <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/novedades/selecciónITAvanzadoAbril2020temario.jpeg" alt="" />
+                <img src="img/novedades/seleccionITAvanzadoAbril2020temario.jpeg" alt="" />
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/selecciónITAvanzadoAbril2020temario.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAbril2020temario.jpeg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
@@ -254,6 +306,9 @@
               </div>
             </div>
           </div>
+		  
+		  
+		  
         </div>
       </div>
       <!-- Container Ends -->
@@ -269,7 +324,7 @@
             <div class="cta-trial text-center">
               <h3>¿Est&aacute;s listo para comenzar?</h3>
               <p>Escribinos por mail.<br> O llamanos para Inscribirte</p>
-              <a href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y Selección de Personal" target="_blank" class="btn btn-common btn-effect">Contactanos!</a>
+              <a href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y seleccion de Personal" target="_blank" class="btn btn-common btn-effect">Contactanos!</a>
             </div>
           </div>
         </div>
@@ -293,7 +348,7 @@
               <ul class="footer-social">
                 <li><a class="facebook" href="https://www.facebook.com/Infostchr-675557912900923/" target="_blank"><i class="lni-facebook-filled"></i></a></li>
                 <li><a class="linkedin" href="https://www.linkedin.com/in/infostchr/" target="_blank"><i class="lni-linkedin-fill"></i></a></li>
-                <li><a class="google-plus" href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y Selección de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
+                <li><a class="google-plus" href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y seleccion de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
