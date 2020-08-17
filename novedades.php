@@ -272,7 +272,7 @@
               </div>
             </div>
           </div>
-		     <div id="portfolio" class="row">
+		     
           <div class="col-lg-4 col-md-6 col-xs-12 mix development">
             <div class="portfolio-item">
               <div class="shot-item">
