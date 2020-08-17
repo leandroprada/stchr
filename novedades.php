@@ -142,7 +142,7 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020.pdf"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
@@ -159,7 +159,7 @@
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020-2.jpeg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/novedades/seleccionITAvanzadoAgosto2020-2.pdf"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">Ver Curso</a>
                     </div>
