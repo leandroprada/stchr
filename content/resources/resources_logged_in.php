@@ -173,6 +173,10 @@ $courses = $_SESSION['courses'];
 				else if ($coursename == "itbasicojul20"){
 					include "resources_itbasicojul20.php";
 				}
+				
+				else if ($coursename == "itavanzadoago20"){
+					include "resources_itavanzadoago20.php";
+				}
 			
 		}	
 				
