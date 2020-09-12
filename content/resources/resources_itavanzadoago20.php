@@ -36,6 +36,15 @@
 							</video>
 						</div>
 					</li>
+					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT M&oacute;dulo 2 Bonus Clase 4 12-SEP-2020 <a  href="#submenuavago4" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver </a> </h2>
+						<div class="collapse list-unstyled" id="submenuavago4">
+													
+							<video width="75%" height="450px"  controls>
+							  <source src="content/resources/videos/itavanzadoago20-4.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+						</div>
+					</li>
 				</ul>
 			  </div>
 		  </div>
