@@ -178,7 +178,7 @@ $courses = $_SESSION['courses'];
 					include "resources_itavanzadoago20.php";
 				}
 				
-				else if ($coursename == "itabasicosep20"){
+				else if ($coursename == "itbasicosep20"){
 					include "resources_itbasicosep20.php";
 				}
 			
