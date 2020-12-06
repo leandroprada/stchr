@@ -15,7 +15,7 @@
 							
 							
 							  
-							  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUHHFt8MIUM" frameborder="0" allow="accelerometer; ; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allownetworking="internal"></iframe>
+							  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUHHFt8MIUM" frameborder="0" allow="accelerometer; ; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allownetworking="internal" controls=0 modestbranding=1></iframe>
 							
 							</video>
 						</div>
