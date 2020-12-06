@@ -15,8 +15,8 @@
 							
 							
 							  
-							  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUHHFt8MIUM" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allownetworking="internal"></iframe>
-							Your browser does not support the video tag.
+							  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kUHHFt8MIUM" frameborder="0" allow="accelerometer; ; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" allownetworking="internal"></iframe>
+							
 							</video>
 						</div>
 					</li>
