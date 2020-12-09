@@ -122,35 +122,9 @@
 						Adem&aacute;s provee diversos servicios en: Gesti&oacute;n de Proyectos, Consultor&iacute;a de Apoyo, Desarrollo de Software, Staffing de Recursos, Búsqueda de Personal Especializado, Quality Assurance, Training, Administraci&oacute;n, etc. </br>
 						Cuenta con una enorme experiencia en consultor&iacute;a de negocios y tecnolog&iacute;a, adquirida durante m&aacute;s de 15 a&ntilde;os en m&aacute;s de 200 proyectos en compa&ntilde;&iacute;as de diferentes tama&ntilde;os y sectores de industria en Am&eacute;rica Latina y Europa.</p>
 
-Conocimientos específicos:
-Java +4 años de experiencia.
-Maven
-Hibernate
- 
-Otros conocimientos:
-JavaScript
-JQuery / Angular
- 
-Conocimientos complementarios:
-Arquitectura SOA
-Unit Testing
-SQL
-GIT
-Jib-X  
- 
-Proyecto: Nuevo
-Rubro: Banco
-Área de trabajo: Desarrollo
- 
-Relación laboral: 
-Relación de dependencia o freelance (opcional)
- 
-Beneficios
-Capacitaciones pagas
-Obra social Osde grupo fliar
  
 
-					<ul><h5>Conocimientos espec&iacute;ficos:</h5>
+					<ul><h6>Conocimientos espec&iacute;ficos:</h6>
 					<li>Java +4 a&ntilde;os de experiencia.</li>
 					<li>Maven</li>
 					<li>Hibernate</li>
@@ -166,6 +140,15 @@ Obra social Osde grupo fliar
 					<li>SQL</li>
 					<li>GIT</li>
 					<li>Jib-X</li>
+					</ul> 
+					
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Rubro: Banco</li>
+					<li>&Aacute;rea de trabajo: Desarrollo</li>
+					<li>Relaci&oacute;n Laboral: Relaci&oacute de dependencia o freelance (opcional)</li>
+					<li>Capacitaciones Pagas</li>
+					<li>Prepaga Osde Grupo Familiar</li>
+					
 					</ul> 
 					
 
