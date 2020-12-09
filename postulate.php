@@ -96,6 +96,8 @@
           <span>B&uacute;squedas</span>
           <p class="section-subtitle">Debajo nuestras b&uacute;squedas activas, adem&aacute;s pod&eacute;s enviarnos tu CV.
 		  <a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank">Postulate!</a></p>
+		  
+		  
         </div>
 
 		   
@@ -105,7 +107,7 @@
 				  <div class="icon color-1">
 					<i class="lni-search"></i>
 				  </div>
-				  <h3>Java Ssr/SR (CORDOBA ONSITE - otros REMOTO)</h3>
+				  <h3>Desarrollador JAVA Ssr / Remoto</h3>
 					<div class="text-center">
 						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
 					</div>
@@ -115,7 +117,11 @@
 			<div class="col-lg-12 col-md-12 col-xs-12">
 				<div class="justify-content-left">
 						<h6>Descripci&oacute;n del empleo:</h6>
-						<p>Nos encontramos en la b&uacute;squeda de Desarrolladores JAVA con + de 5 a&ntilde;os de Exp. que se unir&aacute; a un talentoso equipo de software que trabaja en aplicaciones de misi&oacute;n cr&iacute;tica. Sus tareas incluir&aacute;n la gesti&oacute;n del desarrollo de aplicaciones Java / Java EE al tiempo que proporciona experiencia en el ciclo de vida completo del desarrollo de software, desde el concepto y el dise&ntilde;o hasta las pruebas.</p>
+						<p class="section-subtitle">Estamos buscando los mejores Talentos IT para una importante compa&ntilde;&iacute;a especializada en la provisi&oacute;n de servicios de consultor&iacute;a en management y tecnolog&iacute;as de la informaci&oacute;n, con fuerte especializaci&oacute;n en la provisi&oacute;n de recursos humanos y caracterizada por las sobresalientes aptitudes y actitudes del equipo.</br>
+						Que desarrolla actividades en Argentina, Brasil, Chile, Uruguay y Am&eacute;rica Central y  brinda servicios de consultor&iacute;a en la &aacute;reas de: e-business, ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), Call Center, BI (Business Intelligence) y SCM (Supply Chain Management).
+						Adem&aacute;s provee diversos servicios en: Gesti&oacute;n de Proyectos, Consultor&iacute;a de Apoyo, Desarrollo de Software, Staffing de Recursos, Búsqueda de Personal Especializado, Quality Assurance, Training, Administraci&oacute;n, etc. </br>
+						Cuenta con una enorme experiencia en consultor&iacute;a de negocios y tecnolog&iacute;a, adquirida durante m&aacute;s de 15 a&ntilde;os en m&aacute;s de 200 proyectos en compa&ntilde;&iacute;as de diferentes tama&ntilde;os y sectores de industria en Am&eacute;rica Latina y Europa.</p>
+
 					<ul><h6>Responsabilidades laborales:</h6>
 					<li>Dise&ntilde;o y desarrollo de aplicaciones de alto volumen y baja latencia para sistemas de misi&oacute;n cr&iacute;tica y ofreciendo alta disponibilidad y rendimiento.</li>
 					<li>Creaci&oacute;n de c&oacute;digo bien dise&ntilde;ado, comprobable y eficiente.</li>
@@ -182,53 +188,7 @@
 			</div>
 		</div>
 
-		<div class="row ">
-			 <div class="col-lg-12 col-md-12 col-xs-12">
-				<div class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
-				  <div class="icon color-1">
-					<i class="lni-search"></i>
-				  </div>
-				  <h3>Python Ssr/SR (CORDOBA ONSITE - otros REMOTO)</h3>
-					<div class="text-center">
-						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
-					</div>
-				</div>
-			 </div>
-			
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<div class="justify-content-left">
-						<h6>Descripci&oacute;n del empleo:</h6>
-						<p>Estamos buscando contratar a un ingeniero senior de Python que ser&aacute; parte de un equipo responsable de resolver algunos de los complejos problemas de back-end relacionados con el mundo de los pagos conectados.</p>
-						<p>Que sea un incondicional t&eacute;cnico y asuma la responsabilidad de una de las plataformas de pagos m&aacute;s grandes que atiende a 27.4 millones de usuarios activos mensuales y se estima que tenga un volumen de transacciones de 100 mil millones de d&oacute;lares en 2020.</p>
-					<ul><h6>Responsabilidades laborales:</h6>
-					<p>Que Dise&ntilde;e e implemente nuevos servicios utilizando tecnolog&iacute;as de vanguardia para ayudar a nuestro cliente a alcanzar sus objetivos comerciales.</p>
-					<p>Colabore con el equipo de arquitectura para desarrollar soluciones robustas, port&aacute;tiles e interoperables a los problemas dif&iacute;ciles que enfrenta una organizaci&oacute;n en crecimiento.</p>
-					<p>Que colabore con el equipo de Seguridad de la Informaci&oacute;n para mantener a Nuestro Cliente y sus clientes a salvo de las amenazas de seguridad emergentes.</p>
-					<p>Que tome un papel activo en la reducci&oacute;n de la deuda t&eacute;cnica en nuestras diversas bases de c&oacute;digo.</p>
-					</ul>
-					<ul><h6>Skills t&eacute;cnicas:</h6>
-					<li>Experto en Python, con conocimiento del framework web Django</li>
-					<li>Experiencia con Apache Kafka o Confluent Kafka en entornos de alto volumen</li>
-					<li>Experiencia en proyectos de desarrollo utilizando tecnolog&iacute;as Java / J2EE.</li>
-					<li>Experiencia laboral en Cassandra y soluciones de almacenamiento en cach&eacute; (por ejemplo, Redis, ElastiCache).</li>
-					<li>Experiencia en arquitectura y desarrollo de soluciones de software escalables con microservicios basados en gRPC.</li>
-					<li>Fuerte comprensi&oacute;n de algoritmos y estructuras de datos.</li>
-					<li>Fuerte comprensi&oacute;n de los patrones de dise&ntilde;o, incluido por qu&eacute; y d&oacute;nde se debe usar un patr&oacute;n.</li>
-					<li>Comprensi&oacute;n de accesibilidad y cumplimiento de seguridad.</li>
-					</ul> 
-			
-					<ul><h6>Requisitos:</h6>
-					<li>Exp + de 5 a&ntilde;os con python. </li>
-					<li>Recibidos o estudiantes avanzados de Ingenier&iacute;a en sistemas / inform&aacute;tica.</li>
-					<li>Residentes de C&oacute;rdoba Capital Onsite.</li>
-					<li>Residentes de otra provincia de Argentina modalidad Remoto. </li>
-					<li>Relaci&oacute;n de dependencia o freelance.</li>
-					<li>Fulltime</li>
-					<li>Nivel de Ingl&eacute;s avanzado.</li>
-					</ul>			
-			   </div>							
-			</div>
-		</div>
+	
 
 
 
