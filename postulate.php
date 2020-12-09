@@ -122,24 +122,54 @@
 						Adem&aacute;s provee diversos servicios en: Gesti&oacute;n de Proyectos, Consultor&iacute;a de Apoyo, Desarrollo de Software, Staffing de Recursos, Búsqueda de Personal Especializado, Quality Assurance, Training, Administraci&oacute;n, etc. </br>
 						Cuenta con una enorme experiencia en consultor&iacute;a de negocios y tecnolog&iacute;a, adquirida durante m&aacute;s de 15 a&ntilde;os en m&aacute;s de 200 proyectos en compa&ntilde;&iacute;as de diferentes tama&ntilde;os y sectores de industria en Am&eacute;rica Latina y Europa.</p>
 
-					<ul><h6>Responsabilidades laborales:</h6>
-					<li>Dise&ntilde;o y desarrollo de aplicaciones de alto volumen y baja latencia para sistemas de misi&oacute;n cr&iacute;tica y ofreciendo alta disponibilidad y rendimiento.</li>
-					<li>Creaci&oacute;n de c&oacute;digo bien dise&ntilde;ado, comprobable y eficiente.</li>
-					<li>Participaci&oacute;n en todas las fases del ciclo de vida del desarrollo.</li>
-					<li>Asistir en la preparaci&oacute;n y producci&oacute;n de versiones de componentes de software.</li>
-					<li>Que asegure los dise&ntilde;os que cumplan con las especificaciones.</li>
-					<li>Que investige alternativas y tecnolog&iacute;as y presente para revisi&oacute;n arquitect&oacute;nica, a fin de apoyar la mejora continua.</li>
+Conocimientos específicos:
+Java +4 años de experiencia.
+Maven
+Hibernate
+ 
+Otros conocimientos:
+JavaScript
+JQuery / Angular
+ 
+Conocimientos complementarios:
+Arquitectura SOA
+Unit Testing
+SQL
+GIT
+Jib-X  
+ 
+Proyecto: Nuevo
+Rubro: Banco
+Área de trabajo: Desarrollo
+ 
+Relación laboral: 
+Relación de dependencia o freelance (opcional)
+ 
+Beneficios
+Capacitaciones pagas
+Obra social Osde grupo fliar
+ 
+
+					<ul><h5>Conocimientos espec&iacute;ficos:</h5>
+					<li>Java +4 a&ntilde;os de experiencia.</li>
+					<li>Maven</li>
+					<li>Hibernate</li>
+					</ul>
+					<ul><h6>Otros conocimientos:</h6>
+					<li>JavaScript</li>
+					<li>JQuery / Angular</li>
 					</ul> 
 			
-					<ul><h6>Requisitos:</h6>
-					<li>Exp + de 5 a&ntilde;os con Java. </li>
-					<li>Recibidos o estudiantes avanzados de Ingenier&iacute;a en sistemas / inform&aacute;tica.</li>
-					<li>Residentes de C&oacute;rdoba Capital Onsite.</li>
-					<li>Residentes de otra provincia de Argentina modalidad Remoto. </li>
-					<li>Relaci&oacute;n de dependencia o freelance.</li>
-					<li>Fulltime</li>
-					<li>Nivel de Ingl&eacute;s avanzado.</li>
-					</ul>			
+					<ul><h6>Conocimientos complementarios:</h6>
+					<li>Arquitectura SOA</li>
+					<li>Unit Testing</li>
+					<li>SQL</li>
+					<li>GIT</li>
+					<li>Jib-X</li>
+					</ul> 
+					
+
+					
 			   </div>							
 			</div>
 		</div>		
@@ -188,9 +218,53 @@
 			</div>
 		</div>
 
-	
+		
+<!--		<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>QA Automation Ssr/SR (CORDOBA ONSITE - otros REMOTO)</h3>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p>Estamos buscando un ingeniero experimentado en control de calidad para plataforma h&iacute;brida. Que forme parte del equipo de pruebas de una empresa que atiende a m&aacute;s de 3 millones de clientes en todo el mundo que realizan pruebas autom&aacute;ticas y manuales en su sitio de comercio electr&oacute;nico.</p>
+					<ul><h6>Responsabilidades laborales:</h6>
+					<p>Ser&aacute;s el responsable de realizar casos de prueba, API, UI, regresi&oacute;n y pruebas exploratorias. Se espera que seas un modelo a seguir en las pruebas de est&aacute;ndares, que te comprometas a desarrollar habilidades para proporcionar soluciones actualizadas al equipo de pruebas.</p>
+					</ul>
+					<ul><h6>Skills t&eacute;cnicas:</h6>
+					<li>Gran experiencia en automatizaci&oacute;n de pruebas, utilizando lenguaje Java y Selenium.</li>
+					<li>Experiencia con el controlador web IO / JavaScript, Rest Assured, Appium y TestNG.</li>
+					<li>Herramientas de versionado de seguimiento de problemas como JIRA (Confluence / Bamboo / BitBucket)</li>
+					<li>Experiencia en Micro Focus ALM.</li>
+					<li>Experiencia en SQL.</li>
+					<li>Fuerte comprensi&oacute;n de herramientas de desarrollo como Junit, SauceLabs, GIT, Maven, IntelliJ y Gradle.</li>
+					<li>Experiencia laboral con equipos scrum utilizando una metodolog&iacute;a &aacute;gil.</li>
+					<li>Altamente preciso y orientado a los detalles.</li>
+					</ul> 
+			
+					<ul><h6>Requisitos:</h6>
+					<li>Exp + de 5 a&ntilde;os como QA automation. </li>
+					<li>Recibidos o estudiantes avanzados de Ingenier&iacute;a en sistemas / inform&aacute;tica.</li>
+					<li>Residentes de C&oacute;rdoba Capital Onsite.</li>
+					<li>Residentes de otra provincia de Argentina modalidad Remoto. </li>
+					<li>Relaci&oacute;n de dependencia o freelance.</li>
+					<li>Fulltime</li>
+					<li>Nivel de Ingl&eacute;s avanzado.</li>
+					</ul>			
+			   </div>							
+			</div>
+		</div>
 
 
+-->
 
 		
 	</div>
