@@ -257,7 +257,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/seleccionITAvanzadoNoviembre2020.jpg" alt="" />
@@ -274,7 +274,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/seleccionITAvanzadoNoviembre2020-2.jpg" alt="" />
@@ -291,7 +291,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix print">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/seleccionITAvanzadoNoviembre2020-3.jpg" alt="" />
