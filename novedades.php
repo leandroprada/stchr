@@ -105,6 +105,9 @@
               <a class="filter btn btn-common btn-effect" data-filter=".print">
                 Selecci&oacute;n IT Avanzado
               </a>
+			  <a class="filter btn btn-common btn-effect" data-filter=".design">
+                Otras Capacitaciones
+              </a>
               <a class="filter active btn btn-common btn-effect" data-filter=".mix">
                 Todos
               </a>
@@ -168,7 +171,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/emprendedores-Nov20-1.jpg" alt="" />
@@ -185,7 +188,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/emprendedores-Nov20-2.jpg" alt="" />
@@ -203,7 +206,7 @@
             </div>
           </div>
 		  
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/rrhh-nov20-1.jpg" alt="" />
@@ -220,7 +223,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/rrhh-nov20-2.jpg" alt="" />
@@ -237,7 +240,7 @@
               </div>
             </div>
           </div>
-		  <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+		  <div class="col-lg-4 col-md-6 col-xs-12 mix design">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/novedades/meetupJavaNov2020.jpg" alt="" />
