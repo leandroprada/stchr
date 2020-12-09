@@ -193,6 +193,10 @@ $courses = $_SESSION['courses'];
 				else if ($coursename == "rrssemprendedoresdic20"){
 					include "resources_rrssemprendedoresdic20.php";
 				}
+				
+				else if ($coursename == "itbasicodic20"){
+					include "resources_itbasicodic20.php";
+				}
 			
 		}	
 				
