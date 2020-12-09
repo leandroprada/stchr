@@ -99,15 +99,15 @@
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
             <div class="controls text-center">
-              <a class="filter  btn btn-common btn-effect" data-filter=".development">
+              <a class="filter active btn btn-common btn-effect" data-filter=".development">
                 Selecci&oacute;n IT
               </a>
               <a class="filter btn btn-common btn-effect" data-filter=".print">
                 Selecci&oacute;n IT Avanzado
               </a>
-              <a class="filter active btn btn-common btn-effect" data-filter=".other">
+              <a class="filter  btn btn-common btn-effect" data-filter=".other">
                 Otros Cursos
-              </a><a class="filter active btn btn-common btn-effect" data-filter=".mix">
+              </a><a class="filter btn btn-common btn-effect" data-filter=".mix">
                 Todos
               </a>
             </div>
