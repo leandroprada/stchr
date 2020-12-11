@@ -13,20 +13,14 @@
 					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Potenci&aacute; tus redes sociales - Emprendedores<a  href="#submenurrssdic201" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 						<div class="collapse list-unstyled" id="submenurrssdic201">
 							
-							<video width="100%" height="450px"  controls>
-							  <source src="content/resources/videos/rrssParaEmprendedores.mp4" type="video/mp4">
-							Your browser does not support the video tag.
-							</video>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/xEb9FyMUhds" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</li>
 					
 					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Potenci&aacute; tus redes sociales - Emprendedores<a  href="#submenurrssdic202" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 						<div class="collapse list-unstyled" id="submenurrssdic202">
 							
-							<video width="100%" height="450px"  controls>
-							  <source src="content/resources/videos/rrssParaEmprendedores-2.mp4" type="video/mp4">
-							Your browser does not support the video tag.
-							</video>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/aOpRXqy54eU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</li>
 				</ul>
