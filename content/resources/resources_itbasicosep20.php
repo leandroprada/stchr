@@ -16,7 +16,7 @@
 							<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Curso Selecci&oacute;n IT M&oacute;dulo 1 Clase 1 26-Sep-2020 <a  href="#submenubassep1" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 								<div class="collapse list-unstyled" id="submenubassep1">
 									
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/-WaYYMDfOmM" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/MAh2ECPRdPg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</li>
 						</ul>	
