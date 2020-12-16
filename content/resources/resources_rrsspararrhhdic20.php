@@ -16,7 +16,7 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/EkfC0b8kqAQ" frameborder="0" allow="accelerometer;
 						</div> 
 					</li>
-					
+					 
 					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Potenci&aacute; tus redes sociales - RRHH 2<a  href="#submenurrssrrhhdic202" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 						<div class="collapse list-unstyled" id="submenurrssrrhhdic202">
 							
