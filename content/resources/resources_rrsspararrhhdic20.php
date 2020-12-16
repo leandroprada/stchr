@@ -13,7 +13,7 @@
 					<li style="text-decoration:none;padding-bottom:10px; "><h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Potenci&aacute; tus redes sociales - RRHH 1<a  href="#submenurrssrrhhdic201" data-toggle="collapse" aria-expanded="false" class="btn btn-info btn-lg"  style="color:white;">Ver</a></h2>							
 						<div class="collapse list-unstyled" id="submenurrssrrhhdic201">
 							
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/EkfC0b8kqAQ" frameborder="0" allow="accelerometer;
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/EkfC0b8kqAQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div> 
 					</li>
 					 
