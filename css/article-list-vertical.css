@@ -18,7 +18,7 @@
     overflow: hidden;
     background-color: #fff;
 
-    font: normal 13px sans-serif;
+    font: normal 11px sans-serif;
 
     margin-bottom: 40px;
     max-width: 575px;
@@ -39,8 +39,8 @@
     float: left;
     box-sizing: border-box;
 
-    max-width: 350px;
-    padding: 30px;
+    max-width: 372px;
+    padding: 8px;
 }
 
 /* Article title */

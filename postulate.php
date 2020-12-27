@@ -108,34 +108,124 @@
 					<ul class="article-list-vertical">
 
 						<li >
-							<a href="#dev1" style="background-image: url('img/postulate/dev1.png')"></a>
+							<a href="#FT2001" style="background-image: url('img/postulate/dev1.png')"></a>
 							<div>
-								<h2><a href="#dev1">Desarrollador JAVA Ssr</a></h2>
+								<h2><a href="#FT2001">Desarrollador JAVA Ssr (FT2001)</a></h2>
 								<p>Exp +4 a&ntilde;os. Maven. Hibernate. SOA. JS/JQuery/Angular. Relaci&oacute;n de Dependencia o Freelance. OSDE grupo familiar.</p>
-								<a href="#dev1" class="read-more">M&aacute;s info &rarr;</a>
+								<a href="#FT2001" class="read-more">M&aacute;s info &rarr;</a>
 							</div>
 						</li>
  
 						<li>
-							<a href="#dev2" style="background-image: url('img/postulate/dev2.png')"></a>
+							<a href="#FT2002" style="background-image: url('img/postulate/dev2.png')"></a>
 							<div>
-								<h2><a href="#dev2">Desarrollador Front End Ssr </a></h2>
+								<h2><a href="#FT2002">Desarrollador Front End Ssr (FT2002)</a></h2>
 								<p>Exp +4 a&ntilde;os. Angular. Unit Testing. SQL. Relaci&oacute;n de Dependencia o Freelance. OSDE grupo familiar.</p>
-								<a href="#dev2" class="read-more">M&aacute;s info &rarr;</a>
+								<a href="#FT2002" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
+							<a href="#MM1001" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1001">Tech Lead Frontend Developer (MM1001)</a></h2>
+								<p>Exp con equipos de trabajo. TypeScript. SASS/Mods CSS. React o VUE. Ingl&eacute;s flu&iacute;do. Habilidades comunicacionales. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1001" class="read-more">M&aacute;s info &rarr;</a>
 							</div>
 						</li>
 
+						<li >
+							<a href="#MM1002" style="background-image: url('img/postulate/dev2.png')"></a>
+							<div>
+								<h2><a href="#MM1002">Tech Director (MM1002)</a></h2>
+								<p>10+ Exp. contacto frecuente con el cliente. Experto en soluciones de alto rendimiento. Pensamiento digital. Claridad en la definici&oacute;n de presupuestos de proyectos. Tecnolog&iacute;as de avanzada. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1002" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
+							<a href="#MM1003" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1003">Java Dev for AEM (MM1003)</a></h2>
+								<p>Solida experiencia en Java 3+ a&ntilde;os. Ingl&eacute;s fluido. Desarollo en AEM nice to have. Actitud "puedo hacerlo". Patrones de dise&ntilde;o y POO. Uno o m&aacute;s de: Java / J2EE, JSP, Spring, Sling, JMS, JUnit, AOP, MVC, Eclipse. Web containers, GiT, SVN, otros. CI/CD. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1003" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+
+						<li >
+							<a href="#MM1004" style="background-image: url('img/postulate/dev2.png')"></a>
+							<div>
+								<h2><a href="#MM1004">Backend Tech Lead (MM1004)</a></h2>
+								<p>Solido conocimiento t&eacute;cnico. Trabajo con equipos. Node/Python (es un +). Ingl&eacute;s fluido. Exp en Revision del c&oacute;digo. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1004" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
+							<a href="#MM1005" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1005">Java Dev (MM1005)</a></h2>
+								<p>Web y Mobile.  Exp +3 a&ntilde;os en Java7/8. Ingl&eacute;s fluido. POO. Servicios Web, API REST. Servicios en la nube. Contenedores. Repositorios GiT/Bitbucket. CI/CD. Springboot. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1005" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+
+						<li >
+							<a href="#MM1006" style="background-image: url('img/postulate/dev2.png')"></a>
+							<div>
+								<h2><a href="#MM1006">Node.js Dev(MM1006)</a></h2>
+								<p>Exp 3+ a&ntilde;os en Node.js. Conocimientos en automatizaci&oacute;n. SQL o NoSQL. Funciones en la nube. GiT. Ingl&eacute;s fluido. Ser&aacute; ventajoso conocimientos de (PHP, Python, Redis, AWS, Docker, etc.). Frontend con HTML, CSS y JS. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1006" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
+							<a href="#MM1007" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1007">Frontend Dev (MM1007)</a></h2>
+								<p>Exp en Software de Gesti&oacute;n de Proyectos. Refactoring. GiT.  TypeScript + React, Vue o Angular. Flexible. APIs. Prog. funcional y POO. Animaciones (+).Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1007" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+
+						<li >
+							<a href="#MM1008" style="background-image: url('img/postulate/dev2.png')"></a>
+							<div>
+								<h2><a href="#MM1008">Frontend Typescript Dev (MM1008)</a></h2>
+								<p>Integraci&oacute;n con APIs propias o de terceros. Typescript. Exp en React o VUE. Comparte conocimientos. Ingl&eacute;s fluido. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1008" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
+							<a href="#MM1009" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1009">Frontend Tech Lead (MM1009)</a></h2>
+								<p>Typescript. SASS mods CSS. React l VUE. Ingl&eacute;s fluido. Capacidad de comunicar. Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1009" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+
+						<li >
+							<a href="#MM1010" style="background-image: url('img/postulate/dev2.png')"></a>
+							<div>
+								<h2><a href="#MM1010">ReactNative Dev (MM1010)</a></h2>
+								<p>React Native Developer. Apps Mobile. Ingl&eacute;s fluido. EcmaScript. ReactNative. JSX (+) Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1010" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
 					</ul>
 				 </div>
 
 				
 		
 			 <div class="col-lg-12 col-md-12 col-xs-12">
-				<div id="dev1" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				<div id="FT2001" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
 				  <div class="icon color-1">
 					<i class="lni-search"></i>
 				  </div>
-				  <h3>Desarrollador JAVA Ssr / Remoto</h3>
+				  <h3>Desarrollador JAVA Ssr / Remoto (FT2001)</h3>
 					<div class="text-center">
 						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
 					</div>
@@ -187,11 +277,11 @@
 		
 		<div class="row ">
 			 <div class="col-lg-12 col-md-12 col-xs-12">
-				<div id="dev2" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				<div id="FT2002" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
 				  <div class="icon color-1">
 					<i class="lni-search"></i>
 				  </div>
-				  <h3>Desarrollador Front End Ssr / Remoto</h3>
+				  <h3>Desarrollador Front End Ssr / Remoto (FT2002)</h3>
 				  <h4>Frontend +4 a&ntilde;os de experiencia</h4>
 					<div class="text-center">
 						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
@@ -234,6 +324,318 @@
 			   </div>							
 			</div>
 		</div>		
+		
+		
+		<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1001" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Tech Lead Frontend Developer (MM1001)</h3>
+				  <h4>Experiencia manejo de equipos</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Estamos buscando los mejores talentos IT para una importante compañía Internacional con sede en Argentina, México, Holanda,Europa, Asia y América que ofrece igualdad de oportunidades y está comprometido con la igualdad de oportunidades para todos los empleados y solicitantes. La Compañía recluta, contrata, capacita, promueve, compensa y administra todas las acciones del personal sin tener en cuenta la raza, el color, la religión, el sexo, los estereotipos sexuales género, identidad de género, expresión de género, origen nacional, edad, discapacidad mental o física, ascendencia, afección médica, estado civil, militar o estado de veterano, estado de ciudadanía, orientación sexual, información genética o cualquier otro estado protegido por la ley aplicable.</p>
+						<p class="section-subtitle">Buscamos un Tech Lead para ayudar a crecer y guiar al equipo de Frontend en Buenos Aires en el desarrollo de plataformas de alta calidad y sitios web premiados. </br> 
+						Para este puesto, las habilidades de comunicación son tan importantes como las habilidades técnicas porque trabajará en estrecha colaboración con otros líderes, colaborará con los miembros del equipo en diferentes departamentos, analizará los problemas técnicos a los miembros del equipo con diferentes niveles de experiencia y comunicará la justificación detrás de soluciones o enfoques específicos.</p>
+
+ 
+
+					<ul><h6>Requisitos:</h6>
+					<li>Experiencia trabajando con equipos en este rol o en un puesto similar.</li>
+					<li>Dominio de TypeScript.</li>
+					<li>Sass, módulos CSS y componentes con estilo.</li>
+					<li>Experiencia sólida con React o Vue, y la capacidad de adaptarse rápidamente a nuevos marcos y tecnologías.</li>
+					<li>Su experiencia va más allá de ser capaz de codificar: también tiene una sólida comprensión de cómo funcionan tanto Internet como los sistemas de información en general y puede comprender los flujos comunicacionales abstractos como un profesional.</li>
+					<li>Inglés fluido y grandes habilidades comunicativas.</li>
+					</ul>
+					
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>
+					
+					</ul> 
+
+					
+			   </div>							
+			</div>
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1002" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Tech Director (MM1002)</h3>
+				  <h4>+10 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Estamos buscando los mejores talentos IT para una importante compañía Internacional con sede en Argentina, México, Holanda,Europa, Asia y América que ofrece igualdad de oportunidades y está comprometido con la igualdad de oportunidades para todos los empleados y solicitantes. La Compañía recluta, contrata, capacita, promueve, compensa y administra todas las acciones del personal sin tener en cuenta la raza, el color, la religión, el sexo, los estereotipos sexuales género, identidad de género, expresión de género, origen nacional, edad, discapacidad mental o física, ascendencia, afección médica, estado civil, militar o estado de veterano, estado de ciudadanía, orientación sexual, información genética o cualquier otro estado protegido por la ley aplicable.</p>
+						<p class="section-subtitle">En este puesto, serás una parte clave del proceso de presentación y ventas, apoyando a Growth Monks y Producers para ayudar a crear soluciones digitales para clientes.
+						Examinará los proyectos entrantes y definirá nuestra respuesta inicial, y partirá de allí. Su amplia experiencia en la superación de desafíos técnicos salvaguardar los nuevos proyectos desde el principio.
+						Participará en el nivel de CIO / CTO para perfeccionar la mejor arquitectura técnica para lograr el éxito del cliente.
+						También trabajará con nuestros equipos en las Américas, principalmente LA, SF, CDMX.
+						Algunos de los proyectos en los que trabajará se relacionan con tecnologías experimentales y pueden ser técnicamente desafiantes, lo que requiere que lidere el camino a través de caminos de desarrollo inexplorados.
+						Una vez que los proyectos se hayan vendido, ayudarás a prepararlos para el desarrollo de fortalezas de producción en Ámsterdam y Buenos Aires.
+						</p>
+
+					<ul><h6>Requisitos:</h6>
+					<li>Más de 10 años de experiencia.</li>
+					<li>El puesto implica contacto frecuente con el cliente y se basa en su capacidad para hablar sobre asuntos técnicos de manera clara.</li>
+					<li>Habilidades de comunicacion y resolucion de problemas.</li>
+					<li>Experto en soluciones de alto rendimiento que pueden manejar millones de visitantes.</li>
+					<li>Contar con  un don para el pensamiento digital y las tendencias tecnológicas, demostrado experiencia de desarrollo con tecnologías beta y API.
+					<li>Asesorar sobre la infraestructura de alojamiento, la seguridad, los problemas de rendimiento y los memes de Internet predominantes.</li>
+					<li>Conocimiento profundo de la infraestructura de computación en la nube, la gestión / cumplimiento de riesgos y los requisitos de seguridad de la información relacionados.</li>
+					<li>Compilar documentación técnica para ayudar a instruir a los equipos de desarrollo, sin importar en qué parte del mundo se encuentren.</li>
+					<li>Tener experiencia en proporcionar estadios rápidos y estimaciones de proyectos precisas, definiendo claramente el alcance y los supuestos subyacentes.</li>
+					<li>Trabajo en equipo para  alcanzar el objetivo final común.</li>
+					</ul>
+					
+					<ul><h6>Skills:</h6>
+					<li>AEM, Acquia, AWS, CDN, CMS, (S) CSS, Drupal, HTML, JavaScript, TypeScript, Magento, .NET, Node.js, Python, React, Redis, Salesforce, Sitecore, Symfony, Umbraco, Vue.js, WebGL: háganos saber lo que sabe.</li>
+					</ul>
+
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>					
+					</ul> 
+					
+			   </div>							
+			</div>
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1003" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Java Dev for AEM (MM1003)</h3>
+				  <h4>+3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Estamos buscando un desarrollador para unir sitios web y aplicaciones web increíbles en el backend de la producción digital.Que será un miembro clave del equipo de desarrollo de AEM, diseñando, modificando, probando, documentando, instalando y manteniendo y respaldando aplicaciones que permitan a las empresas operar de manera más efectiva y competitiva.</p>
+					<ul><h6>Sobre el rol:</h6>
+					<li>Contar con base sólida en conocimientos en Java, ya que desempeñará un papel clave en el desarrollo de la plataforma y las soluciones AEM.</li>
+					<li>Trabajar eficazmente como miembro del equipo dentro de un entorno de desarrollo ágil.</li>
+					<li>Comunicarse de manera efectiva con otros miembros del equipo, líderes y la gerencia de la empresa, tanto de forma oral como escrita.</li>
+					<li>Escribir código de programa que cumpla con los requisitos acordados y sea 1) robusto, 2) comprobable, 3) fácil de mantener y 4) comentado de forma eficaz.</li>
+					<li>Producir diseños / implementaciones de interfaz de usuario que incorporan los mejores estándares aceptados por la industria.</li>
+					<li>Anticipar problemas con diseños y soluciones propuestos.</li>
+					<li>Cumplir constantemente los plazos del proyecto.</li>
+					<li>Trabajar en un entorno de "mejora constante".</li>
+					<li>Proyectar profesionalismo, entusiasmo, una actitud de "puedo hacerlo".</li>
+					<li>Cumplir o superar los objetivos de rendimiento establecidos.</li>
+					</ul>
+
+
+					<ul><h6>Requisitos:</h6>
+					<li>Más de 3 años de Java 7/8 es imprescindible.</li>
+					<li>El inglés fluido.</li>
+					<li>La experiencia en el desarrollo de AEM es muy valiosa.</li>
+					<li>Experiencia en diseño y análisis de aplicaciones web, patrones de diseño y diseño orientado a objetos.</li>
+					<li>Experiencia en tecnologías web modernas que incluyen: XML, HTML, CSS, AJAX / JavaScript, Web Services, REST / GRAPHQL.</li>
+					<li>Experiencia con uno o más conceptos y patrones de Java, incluidos: Java / J2EE, JSP, Spring, Sling, JMS, JUnit, AOP, MVC, Eclipse.</li>
+					<li>Conocimiento práctico de múltiples tecnologías de nivel de aplicaciones y web: Tomcat, WebSphere, WebLogic, Apache Http, Spring tc Server, Solr, paquetes de código abierto</li>
+					<li>Experiencia con múltiples sistemas de control de fuentes: CVS, SVN, Git, BitBucket</li>
+					<li>CI / CD: Jenkins, Maven, etc.</li>
+					<li>Excelentes habilidades de comunicación, tanto escritas como verbales.</li>
+					<li>Experiencia en un entorno de consultoría con un historial demostrado de responsabilidades continuas, creatividad e innovación.</li>
+					</ul>
+
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>
+					
+					</ul> 
+
+					
+			   </div>							
+			</div>
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1004" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Backend Tech Lead (MM1004)</h3>
+				  <h4>Experiencia manejo de equipos</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1005" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Java Dev (MM1005)</h3>
+				  <h4>+3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1006" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Node.js Dev (MM1006)</h3>
+				  <h4>+3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1007" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Frontend Dev (MM1007)</h3>
+				  <h4>Exp. en software de gesti&oacute;n de proyectos</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1008" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Frontend Typescript Dev (MM1008)</h3>
+				  <h4>Frontend +3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1009" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Frontend Tech Lead (MM1009)</h3>
+				  <h4>Buena comunicaci&oacute;n con el equipo</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
+		
+				<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1010" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>ReactNative Dev (MM1010)</h3>
+				  <h4>ReactNative +3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			 
+			 
+			 
+		</div>	
 		
 		
 <!--		<div class="row ">
