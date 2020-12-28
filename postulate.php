@@ -219,7 +219,7 @@
 						<li >
 							<a href="#MM1011" style="background-image: url('img/postulate/dev1.png')"></a>
 							<div>
-								<h2><a href="#MM1011">Agular Dev (MM1010)</a></h2>
+								<h2><a href="#MM1011">Agular Dev (MM1011)</a></h2>
 								<p>3+ A&ntilde;os de Exp. como Angular Developer. Grandes Plataformas. Ingl&eacute;s fluido. HTML/CSS/JS-TS.  Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
 								<a href="#MM1011" class="read-more">M&aacute;s info &rarr;</a>
 							</div>
