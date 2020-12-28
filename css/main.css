@@ -153,8 +153,8 @@ button.mercadopago-button  {
   background-color: #d80A22;
   position: relative;
   z-index: 1;
-  padding: 12px 32px;
-  border-radius: 30px;
+  padding: 50px 32px;
+  border-radius: 10px;
 }
 
 .btn-common {
