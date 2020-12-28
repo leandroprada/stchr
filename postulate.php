@@ -216,6 +216,15 @@
 							</div>
 						</li>
 						
+						<li >
+							<a href="#MM1011" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#MM1011">Agular Dev (MM1010)</a></h2>
+								<p>3+ A&ntilde;os de Exp. como Angular Developer. Grandes Plataformas. Ingl&eacute;s fluido. HTML/CSS/JS-TS.  Prepaga grupo familiar. Revisi&oacute;n salarial cada 3 meses. Capacitaciones constantes. Plus adicional (Luz-Internet).</p>
+								<a href="#MM1011" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
 					</ul>
 				 </div>
 
@@ -917,7 +926,70 @@
 
 					
 			   </div>							
-			</div>			 
+			</div>		
+
+			
+		<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="MM1011" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Angular Dev (MM1011)</h3>
+				  <h4>+3 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Estamos buscando un desarrollador front-end al que le apasiona desarrollar aplicaciones web robustas y galardonadas con Angular. Aplicará sus habilidades con el marco para crear proyectos increíbles con clientes más grandes y conocidos, gigantes de la tecnología y la innovación.</p>
+					<ul><h6>Sobre el rol:</h6>
+					<li>Te unirás a un equipo de más de 270 personas que trabajan juntos en oficinas internacionales para crear trabajos galardonados para marcas líderes en el mundo.</li>
+					<li>Reunirá interfaces innovadoras y otros elementos interactivos que ocasionalmente necesitará construir desde cero.</li>
+					</ul>
+
+
+					<ul><h6>Requisitos:</h6>
+					<li>3/4 años de experiencia como Angular Developer
+					<li>Estar actualizado con los últimos estándares en HTML, CSS y JS / TS.</li>
+					<li>Inglés fluido</li>
+					<li>Comprende los beneficios de utilizar la verificación de tipos estáticos </li>
+					<li>Tener  experiencia trabajando con grandes plataformas</li>
+					<li>Estar familiarizado con las SPA, los sitios renderizados del lado del servidor y las API integradas.</li>
+					</ul>
+
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>
+					</ul> 
+
+					
+			   </div>							
+			</div>
+
+
+
+
+
+
+
+
+
+
+			
 		</div>	
 		
 		
