@@ -115,7 +115,7 @@ $preference->save();
 		  
 			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preference->id; ?>">
+			  data-preference-id="<?php echo $preference->id; ?>" class="btn btn-common btn-effect">
 			</script>
 			
         </div>
