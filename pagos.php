@@ -111,7 +111,7 @@ $preference->save();
           
         </div> -->
         <div class="row">
-          <div class="col-md-12 btn btn-common btn-effect">
+          <div class="col-md-12">
 		  
 			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
