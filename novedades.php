@@ -573,7 +573,7 @@
           
         </div> -->
         <div class="row">
-          <div class="col-lg-12 col-xs-12">
+         
 		  
 			<div class="col-lg-9 col-xs-9">Selección IT Módulo 1 $<?php echo $item->unit_price; ?>
 			</div>
@@ -583,27 +583,43 @@
 			  data-preference-id="<?php echo $preference->id; ?>" >
 			</script>
 			</div>
-		  <div>Selección IT Módulo 2 Avanzado <script
+			<div class="col-lg-9 col-xs-9">Selección IT Módulo 2 Avanzado $<?php echo $item->unit_price; ?>
+			</div>
+			<div class="col-lg-3 col-xs-3">
+			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
-			</script></div>
-		  <div>Potencia tu Redes 4.0 Módulo Emprendedores <script
+			</script>
+			</div>
+			<div class="col-lg-9 col-xs-9">Potencia tu Redes 4.0 Módulo Emprendedores $<?php echo $itemrrss->unit_price; ?>
+			</div>
+			<div class="col-lg-3 col-xs-3">
+			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
-			</script></div>
-		  <div>Potencia Tus Redes 4.0 Módulo RRHH <script
+			</script>
+			</div>
+			<div class="col-lg-9 col-xs-9">Potencia Tus Redes 4.0 Módulo RRHH $<?php echo $itemrrss->unit_price; ?> 
+			</div>
+			<div class="col-lg-3 col-xs-3">
+			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
-			</script></div>
-		  <div>Curso básico de Desarrollo Web Frontend<script
+			</script>
+			</div>
+			<div class="col-lg-9 col-xs-9">Curso básico de Desarrollo Web Frontend $<?php echo $itemdev->unit_price; ?>
+			</div>
+			<div class="col-lg-3 col-xs-3">
+			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencedev->id; ?>" >
-			</script></div>
-		  </ul>
+			</script>
+			</div>
+		  
 		 
 		
 			
-        </div>
+        
       </div>
       <!-- Container Ends -->
     </section>
