@@ -149,7 +149,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
-.btn-common .button.mercadopago-button {
+button.mercadopago-button  {
   background-color: #d80A22;
   position: relative;
   z-index: 1;
@@ -157,7 +157,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-radius: 30px;
 }
 
-.btn-common:hover .button.mercadopago-button:hover {
+.btn-common {
+  background-color: #d80A22;
+  position: relative;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+.btn-common:hover button.mercadopago-button:hover {
   color: #fff;
 }
 
