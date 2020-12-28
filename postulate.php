@@ -526,7 +526,47 @@
 			 </div>
 			 
 			 
-			 
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Buscamos un Tech Lead que ayude al equipo de Backend en Buenos Aires mediante el desarrollo de plataformas de alta calidad y sitios web galardonados.</br>Para este puesto, las habilidades técnicas son las más importantes. Colaborará con los miembros del equipo en diferentes departamentos, analizará los problemas técnicos de otros miembros del equipo técnico con diferentes niveles de experiencia y comunicará el fundamento detrás de soluciones o enfoques específicos.</p>
+					<ul><h6>Responsabilidades:</h6>
+					<li>Ayudar a otros desarrolladores a mejorar técnicamente.</li>
+					<li>Realizar revisiones de código y seguimiento de tareas de bajo nivel.</li>
+					<li>Colaborar con el desarrollo y los equipos relacionados con el desarrollo y los gerentes de proyectos.</li>
+					<li>Participar en las decisiones técnicas de nuestros apasionantes proyectos.</li>
+					<li>Proporcionar estimaciones de tiempo para funciones y nuevos desarrollos.</li>
+					<li>Asegurarse de que los proyectos se entreguen con los más altos estándares de calidad de manera oportuna.</li>
+					<li>Investigue y comparta conocimientos entre equipos y oficinas.</li>
+					</ul>
+
+
+					<ul><h6>Requisitos:</h6>
+					<li>Experiencia trabajando con equipos en posiciones similares.</li>
+					<li>¡Si alguna vez trabajó con Node o Python es una gran ventaja!</li>
+					<li>Sólida experiencia con tecnologías backend.</li>
+					<li>Autonomía y capacidad de adaptación a entornos cambiantes.</li>
+					<li>El conocimiento de las soluciones en la nube de AWS y / o Google es una ventaja.</li>
+					<li>Puede hacer más que codificar: tiene un conocimiento sólido de cómo funcionan tanto Internet como los sistemas de información en general.</li>
+					<li>Inglés fluido.</li>
+					</ul>
+
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>
+					</ul> 
+
+			   </div>							
+			</div>			 
 		</div>	
 		
 				<div class="row ">
@@ -544,7 +584,54 @@
 			 </div>
 			 
 			 
-			 
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Estamos buscando un desarrollador para unir sitios web y aplicaciones web increíbles en el backend de la producción digital. Serás un miembro clave del equipo de desarrollo backend, diseñando, codificando, probando, documentando, instalando, manteniendo y dando soporte a aplicaciones que permitan a las empresas operar de manera más efectiva y competitiva.</p>
+					<ul><h6>Sobre el rol:</h6>
+					<li>Contar con conocimiento en Java ya que jugará un papel clave en el desarrollo de plataformas y soluciones.</li>
+					<li>Deberá trabajar eficazmente como miembro del equipo dentro de un entorno de desarrollo ágil.</li>
+					<li>Poseer una comunicación efectiva con otros miembros del equipo, líderes y la gerencia de la empresa, tanto de forma oral como escrita;</li>
+					<li>Escribir código de programa que cumpla con los requisitos acordados y sea 1) robusto, 2) comprobable, 3) fácil de mantener y 4) comentado de forma eficaz</li>
+					<li>Producir diseños / implementaciones de interfaz de usuario que incorporan los mejores estándares aceptados por la industria</li>
+					<li>Deberá anticipar problemas con diseños y soluciones propuestos</li>
+					<li>Deberá cumplir constantemente los plazos del proyecto</li>
+					<li>Trabajar en un entorno de "mejora constante"</li>
+					<li>Proyectar profesionalismo, entusiasmo, una actitud de "puedo hacerlo"</li>
+					<li>Cumplir o superar los objetivos de rendimiento establecidos</li>
+					</ul>
+
+
+					<ul><h6>Requisitos:</h6>
+					<li>Más de 3 años de Java 7/8 es imprescindible.</li>
+					<li>¡Habla inglés con fluidez y se siente muy seguro al hablar y escribir!</li>
+					<li>Tiene experiencia en diseño y análisis de aplicaciones; patrones y programación orientada a objetos.</li>
+					<li>Experiencia en Servicios Web, API REST, integración de APIs de terceros; OAuth, redes sociales y otras integraciones</li>
+					<li>Experiencia en tecnologías modernas que incluyen: nubosidad como AWS (EC2), GCP y / o Azure; contenedor / virtualización como Docker / Vagrant</li>
+					<li>La experiencia en desarrollo para CMS es valiosa</li>
+					<li>La experiencia en desarrollo con SpringBoot y Spring context es valiosa</li>
+					<li>Git y / o BitBucket; CI / CD: Jenkins, Maven, Gradle</li>
+					<li>Excelentes habilidades comunicativas, tanto escritas como verbales.</li>
+					<li>Experiencia en un entorno de consultoría con un historial demostrado de responsabilidades continuas, creatividad e innovación.</li>
+					</ul>
+
+					<ul><h6>Proyecto: Nuevo</h6>
+					<li>Tiempo de trabajo: Full Time</li>
+					<li>Tipo de trabajo: Por pandemia Remoto/ post pandemia On Site</li>
+					<li>Lugar de trabajo: Buenos Aires-Argentina</li>					
+					</ul> 
+					
+					<ul><h6>Beneficios</h6>
+					<li>Prepaga Grupo Familiar</li>
+					<li>Revisi&oacute;n Salarial cada 3 meses</li>
+					<li>Capacitaciones constantes</li>
+					<li>Plus adicional (Luz-Internet)</li>
+					<li>Y muchos más...</li>
+					</ul> 
+
+					
+			   </div>							
+			</div>
 		</div>	
 		
 				<div class="row ">

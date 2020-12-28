@@ -1095,6 +1095,9 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
         <!-- Row and Scroller Wrapper Starts -->
         <div class="row" id="clients-scroller">
           <div class="client-item-wrapper">
+            <img src="img/clients/img13.png" alt="">
+          </div>
+		  <div class="client-item-wrapper">
             <img src="img/clients/img1.png" alt="">
           </div>
 		  <div class="client-item-wrapper">
