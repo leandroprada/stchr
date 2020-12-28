@@ -133,17 +133,29 @@ $preferencedev->save();
         <div class="row">
           <div class="col-md-12">
 		  <ul>
-		  <li>Selección IT Módulo 1</li>
-		  <li>Selección IT Módulo 2 Avanzado </li>
-		  <li>Potencia tu Redes 4.0 Módulo Emprendedores</li>
-		  <li>Potencia Tus Redes 4.0 Módulo RRHH</li>
-		  <li>Curso básico de Desarrollo Web Frontend</li>
-		  </ul>
-		 
-			<script
+		  <li>Selección IT Módulo 1 <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
-			</script>
+			</script></li>
+		  <li>Selección IT Módulo 2 Avanzado <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preference->id; ?>" >
+			</script></li>
+		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Potencia Tus Redes 4.0 Módulo RRHH <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Curso básico de Desarrollo Web Frontend<script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencedev->id; ?>" >
+			</script></li>
+		  </ul>
+		 
+		
 			
         </div>
       </div>
