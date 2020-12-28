@@ -138,15 +138,9 @@ $preferencedev->save();
 			  data-preference-id="<?php echo $preference->id; ?>" >
 			</script></li>
 		  <li>Selección IT Módulo 2 Avanzado </li>
-		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
-			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
-			</script></li>
+		  <li>Potencia tu Redes 4.0 Módulo Emprendedores </li>
 		  <li>Potencia Tus Redes 4.0 Módulo RRHH </li>
-		  <li>Curso básico de Desarrollo Web Frontend<script
-			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preferencedev->id; ?>" >
-			</script></li>
+		  <li>Curso básico de Desarrollo Web Frontend</li>
 		  </ul>
 		 
 		
