@@ -573,28 +573,32 @@
           
         </div> -->
         <div class="row">
-          <div class="col-lg-12 right">
-		  <ul>
-		  <li>Selección IT Módulo 1 $<?php echo $item->unit_price; ?><script
-			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preference->id; ?>" style="padding-left:50px;">
-			</script></li>
-		  <li>Selección IT Módulo 2 Avanzado <script
+          <div class="col-lg-12 col-xs-12">
+		  
+			<div class="col-lg-9 col-xs-9">Selección IT Módulo 1 $<?php echo $item->unit_price; ?>
+			</div>
+			<div class="col-lg-3 col-xs-3">
+			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
-			</script></li>
-		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
+			</script>
+			</div>
+		  <div>Selección IT Módulo 2 Avanzado <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preference->id; ?>" >
+			</script></div>
+		  <div>Potencia tu Redes 4.0 Módulo Emprendedores <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
-			</script></li>
-		  <li>Potencia Tus Redes 4.0 Módulo RRHH <script
+			</script></div>
+		  <div>Potencia Tus Redes 4.0 Módulo RRHH <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
-			</script></li>
-		  <li>Curso básico de Desarrollo Web Frontend<script
+			</script></div>
+		  <div>Curso básico de Desarrollo Web Frontend<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preferencedev->id; ?>" >
-			</script></li>
+			</script></div>
 		  </ul>
 		 
 		
