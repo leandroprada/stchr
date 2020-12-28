@@ -7,8 +7,7 @@ MercadoPago\SDK::setAccessToken('APP_USR-7096232695569092-122812-471daacdceb959c
 
 // Crea un objeto de preferencia
 $preference = new MercadoPago\Preference();
-$preferencerrss = new MercadoPago\Preference();
-$preferencedev = new MercadoPago\Preference();
+
 
 // Crea un ítem en la preferencia
 $item = new MercadoPago\Item();
@@ -23,17 +22,15 @@ $itemrrss = new MercadoPago\Item();
 $itemrrss->title = 'Curso Redes Sociales';
 $itemrrss->quantity = 1;
 $itemrrss->unit_price = 3000;
-$preferencerrss->purpose ='wallet_purchase';
-$preferencerrss->items = array($itemrrss);
-$preferencerrss->save();
+$preference->items = array($itemrrss);
+$preference->save();
 
 $itemdev = new MercadoPago\Item();
 $itemdev->title = 'Curso Desarrollo Frontend';
 $itemdev->quantity = 1;
 $itemdev->unit_price = 3000;
-$preferencedev->purpose ='wallet_purchase';
-$preferencedev->items = array($itemdev);
-$preferencedev->save();
+$preference->items = array($itemdev);
+$preference->save();
 
 
 ?>
