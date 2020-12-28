@@ -543,6 +543,72 @@
     </section>
     <!-- Portfolio Section Ends -->
 	
+	<div class="container">
+      <div id="workshop"  class="section-header" style="padding-top:100px;">
+         <h2 class="section-title">Aqu&iacute; podr&aacute;s pagar tu curso</h2>
+         <span style="padding-top:100px;">Pagos</span>
+            </div>
+	  
+	  
+	  <!--  <div id="curso" style="padding-top:60px;" class=" center lg-col-3 md-col-4 xs-col-6">
+         <div class="xs-center curso">
+		 <img class="curso" src="img/novedades/seleccionITAbril2020.jpeg" alt="">
+		 </div>
+      </div>  
+	   -->
+
+	  
+   </div>
+   
+   
+   
+	    <!-- Portfolio Section -->
+    <section class="section">
+      <!-- Container Starts -->
+      <div class="container">
+     <!--    <div class="section-header">
+          <h2 class="section-title">Nuevos Cursos</h2>
+          <span>Cursos</span>
+          
+        </div> -->
+        <div class="row">
+          <div class="col-lg-12 right">
+		  <ul>
+		  <li>Selección IT Módulo 1 <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preference->id; ?>" style="padding-left:50px;">
+			</script></li>
+		  <li>Selección IT Módulo 2 Avanzado <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preference->id; ?>" >
+			</script></li>
+		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Potencia Tus Redes 4.0 Módulo RRHH <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Curso básico de Desarrollo Web Frontend<script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencedev->id; ?>" >
+			</script></li>
+		  </ul>
+		 
+		
+			
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends -->
+	
+	
+	
+	
+	
+	
 	
     <!-- Call to Action Start -->
     <section class="call-action section">
