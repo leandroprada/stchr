@@ -23,15 +23,17 @@ $itemrrss = new MercadoPago\Item();
 $itemrrss->title = 'Curso Redes Sociales';
 $itemrrss->quantity = 1;
 $itemrrss->unit_price = 3000;
-$preference->items = array($itemrrss);
-$preference->save();
+$preferencerrss->purpose ='wallet_purchase';
+$preferencerrss->items = array($itemrrss);
+$preferencerrss->save();
 
 $itemdev = new MercadoPago\Item();
 $itemdev->title = 'Curso Desarrollo Frontend';
 $itemdev->quantity = 1;
-$itemdev->unit_price = 30000;
-$preference->items = array($itemdev);
-$preference->save();
+$itemdev->unit_price = 3000;
+$preferencedev->purpose ='wallet_purchase';
+$preferencedev->items = array($itemdev);
+$preferencedev->save();
 
 
 ?>
@@ -129,7 +131,7 @@ $preference->save();
           
         </div> -->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-lg-12 left">
 		  <ul>
 		  <li>Selección IT Módulo 1 <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
@@ -141,15 +143,15 @@ $preference->save();
 			</script></li>
 		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preference->id; ?>" >
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
 			</script></li>
 		  <li>Potencia Tus Redes 4.0 Módulo RRHH <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preference->id; ?>" >
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
 			</script></li>
 		  <li>Curso básico de Desarrollo Web Frontend<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preference->id; ?>" >
+			  data-preference-id="<?php echo $preferencedev->id; ?>" >
 			</script></li>
 		  </ul>
 		 
