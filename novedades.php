@@ -575,7 +575,7 @@
         <div class="row">
           <div class="col-lg-12 right">
 		  <ul>
-		  <li>Selección IT Módulo 1 $<?php echo $preference->item->unit_price?><script
+		  <li>Selección IT Módulo 1 $<?php echo ($preference->item->unit_price); ?><script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" style="padding-left:50px;">
 			</script></li>
