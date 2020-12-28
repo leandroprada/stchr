@@ -7,7 +7,8 @@ MercadoPago\SDK::setAccessToken('APP_USR-7096232695569092-122812-471daacdceb959c
 
 // Crea un objeto de preferencia
 $preference = new MercadoPago\Preference();
-
+$preferencerrss = new MercadoPago\Preference();
+$preferencedev = new MercadoPago\Preference();
 
 // Crea un ítem en la preferencia
 $item = new MercadoPago\Item();
@@ -22,15 +23,17 @@ $itemrrss = new MercadoPago\Item();
 $itemrrss->title = 'Curso Redes Sociales';
 $itemrrss->quantity = 1;
 $itemrrss->unit_price = 3000;
-$preference->items = array($itemrrss);
-$preference->save();
+$preferencerrss->purpose ='wallet_purchase';
+$preferencerrss->items = array($itemrrss);
+$preferencerrss->save();
 
 $itemdev = new MercadoPago\Item();
 $itemdev->title = 'Curso Desarrollo Frontend';
 $itemdev->quantity = 1;
 $itemdev->unit_price = 3000;
-$preference->items = array($itemdev);
-$preference->save();
+$preferencedev->purpose ='wallet_purchase';
+$preferencedev->items = array($itemdev);
+$preferencedev->save();
 
 
 ?>
@@ -134,10 +137,22 @@ $preference->save();
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
 			</script></li>
-		  <li>Selección IT Módulo 2 Avanzado </li>
-		  <li>Potencia tu Redes 4.0 Módulo Emprendedores </li>
-		  <li>Potencia Tus Redes 4.0 Módulo RRHH </li>
-		  <li>Curso básico de Desarrollo Web Frontend</li>
+		  <li>Selección IT Módulo 2 Avanzado <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preference->id; ?>" >
+			</script></li>
+		  <li>Potencia tu Redes 4.0 Módulo Emprendedores <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Potencia Tus Redes 4.0 Módulo RRHH <script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			</script></li>
+		  <li>Curso básico de Desarrollo Web Frontend<script
+			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+			  data-preference-id="<?php echo $preferencedev->id; ?>" >
+			</script></li>
 		  </ul>
 		 
 		
