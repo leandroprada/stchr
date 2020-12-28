@@ -566,7 +566,7 @@
 	    <!-- Portfolio Section -->
     <section class="section">
       <!-- Container Starts -->
-      <div class="container">
+      <div class="container" id="pagos">
      <!--    <div class="section-header">
           <h2 class="section-title">Nuevos Cursos</h2>
           <span>Cursos</span>
