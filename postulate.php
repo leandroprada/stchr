@@ -78,7 +78,7 @@
                 <a class="nav-link page-scroll" href="#blog">Blog</a>
               </li>  -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#contactenos">Contacto</a>
+                <a class="nav-link page-scroll" href="./index.php#contactenos">Contacto</a>
               </li>
 			 
             </ul>
@@ -997,7 +997,7 @@
       <section class="footer-Content" id="contactenos">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <h3>STC HR</h3>
               <div class="textwidget">
                 <p>Si sentis que te podemos
@@ -1011,35 +1011,8 @@
                 <li><a class="google-plus" href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta B&uacute;squedas y Selecci&oacute;n de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
               </ul>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Links</h3>
-                <ul class="menu">
-                  <li><a href="./index.php#services">Servicios</a></li>
-                  <li><a href="./index.php#portfolios">Cursos</a></li>
-                  <li><a href="./index.php#team">El Equipo</a></li>
-
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Cont&aacute;ctenos</h3>
-                <ul class="contact-footer">
-                  <li>
-                    <strong>Direcci&oacute;n :</strong> <span>27 DE ABRIL 980 - C&oacute;rdoba, Argentina</span>
-                  </li>
-                  <li>
-                    <strong>Tel :</strong> <span>+54 351 703-2303</span>
-                  </li>
-                  <li>
-                    <strong>Messenger: </strong> <span><a href="
-https://m.me/675557912900923?fbclid=IwAR3K4zKfHN9gEyLQQM1LJmiYmoS3tJinl8l6jKUYfvweFwigp3qXwWRouVE" target="_blank"> STC HR </a></span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+           
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-mb-12">
               <div class="widget">
                 <h3 class="block-title">Instagram</h3>
                 <ul class="instagram-footer">
