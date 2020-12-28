@@ -30,7 +30,7 @@ $preferencerrss->save();
 $itemdev = new MercadoPago\Item();
 $itemdev->title = 'Curso Desarrollo Frontend';
 $itemdev->quantity = 1;
-$itemdev->unit_price = 3000;
+$itemdev->unit_price = 30000;
 $preferencedev->purpose ='wallet_purchase';
 $preferencedev->items = array($itemdev);
 $preferencedev->save();
@@ -131,9 +131,9 @@ $preferencedev->save();
           
         </div> -->
         <div class="row">
-          <div class="col-lg-12 left">
+          <div class="col-lg-12 right">
 		  <ul>
-		  <li>Selección IT Módulo 1 <script
+		  <li style="padding:25px;" class="right;">Selección IT Módulo 1 <script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
 			</script></li>
