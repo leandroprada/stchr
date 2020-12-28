@@ -51,22 +51,22 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#slider-area">Inicio</a>
+                <a class="nav-link page-scroll" href="./index.php">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">Servicios</a>
+                <a class="nav-link page-scroll" href="./index.php#services">Servicios</a>
               </li>
              <!--  <li class="nav-item">
                 <a class="nav-link page-scroll" href="#features">Features</a>
               </li>     -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Cursos</a>
+                <a class="nav-link page-scroll" href="./index.php#portfolios">Cursos</a>
               </li>
             <!--   <li class="nav-item">
                 <a class="nav-link page-scroll" href="#pricing">Pricing</a>
               </li>  -->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#team">El Equipo</a>
+                <a class="nav-link page-scroll" href="./index.php#team">El Equipo</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="./novedades.php">Novedades</a>
@@ -1015,9 +1015,9 @@
               <div class="widget">
                 <h3 class="block-title">Links</h3>
                 <ul class="menu">
-                  <li><a href="#">Servicios</a></li>
-                  <li><a href="#">Cursos</a></li>
-                  <li><a href="#">El Equipo</a></li>
+                  <li><a href="./index.php#services">Servicios</a></li>
+                  <li><a href="./index.php#portfolios">Cursos</a></li>
+                  <li><a href="./index.php#team">El Equipo</a></li>
 
                 </ul>
               </div>
