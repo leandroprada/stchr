@@ -585,7 +585,7 @@
 			</div>
 			<div class="col-lg-9 col-xs-9">Selección IT Módulo 2 Avanzado $<?php echo $item->unit_price; ?>
 			</div>
-			<div class="col-lg-3 col-xs-3">
+			<div class="col-lg-3 col-xs-3 button.mercadopago-button">
 			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
 			  data-preference-id="<?php echo $preference->id; ?>" >
@@ -596,7 +596,7 @@
 			<div class="col-lg-3 col-xs-3">
 			<script
 			  src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-			  data-preference-id="<?php echo $preferencerrss->id; ?>" >
+			  data-preference-id="<?php echo $preferencerrss->id; ?>" class ="button.mercadopago-button" >
 			</script>
 			</div>
 			<div class="col-lg-9 col-xs-9">Potencia Tus Redes 4.0 Módulo RRHH $<?php echo $itemrrss->unit_price; ?> 
