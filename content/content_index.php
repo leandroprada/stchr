@@ -1098,6 +1098,9 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
             <img src="img/clients/img13.png" alt="">
           </div>
 		  <div class="client-item-wrapper">
+            <img src="img/clients/img14.png" alt="">
+          </div>
+		  <div class="client-item-wrapper">
             <img src="img/clients/img1.png" alt="">
           </div>
 		  <div class="client-item-wrapper">

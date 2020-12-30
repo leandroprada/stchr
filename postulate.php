@@ -127,6 +127,15 @@
 						</li>
 						
 						<li >
+							<a href="#QU1001" style="background-image: url('img/postulate/dev1.png')"></a>
+							<div>
+								<h2><a href="#QU1001">Desarrollador .NET  Semi Sr (QU1001)</a></h2>
+								<p>2+ A&ntilde;os de Exp. (SSR). Bases de datos. Control de versiones. Inyecci&oacute;n de dependencias. REST/SOAP APIs. Javascript. Ingl&eacute;s Intermedio/Avanzado. Prepaga Osde. D&iacute;a de cumplea&ntilde;os libre. 100% Home Office (opcional).</p>
+								<a href="#QU1001" class="read-more">M&aacute;s info &rarr;</a>
+							</div>
+						</li>
+						
+						<li >
 							<a href="#MM1001" style="background-image: url('img/postulate/dev1.png')"></a>
 							<div>
 								<h2><a href="#MM1001">Tech Lead Frontend Developer (MM1001)</a></h2>
@@ -225,6 +234,8 @@
 							</div>
 						</li>
 						
+						
+						
 					</ul>
 				 </div>
 
@@ -284,6 +295,90 @@
 			   </div>							
 			</div>
 		</div>		
+		
+		<div class="row ">
+			 <div class="col-lg-12 col-md-12 col-xs-12">
+				<div id="QU1001" class="item-boxes services-item wow fadeInDown " data-wow-delay="0.2s">
+				  <div class="icon color-1">
+					<i class="lni-search"></i>
+				  </div>
+				  <h3>Desarrollador .NET  Semi Sr (QU1001)</h3>
+				  <h4>+2 a&ntilde;os de experiencia</h4>
+					<div class="text-center">
+						<a href="https://forms.gle/nvQ6EVctVGeHz5jC6" target="_blank" class="btn btn-common btn-effect">Postulate!</a>
+					</div>
+				</div>
+			 </div>
+			
+			<div class="col-lg-12 col-md-12 col-xs-12">
+				<div class="justify-content-left">
+						<h6>Descripci&oacute;n del empleo:</h6>
+						<p class="section-subtitle">Experiencia de 2 o 3 años en puestos similares (Semi Sr). En sistemas de base de datos. Trabajo con Sistemas de control de versiones.</p>
+
+ 
+
+					<ul><h6>Actitudes y/o aptitudes </h6>
+					<li>Análisis y resolución de problemas</li>
+					<li>Orientación hacia los resultados y el cliente</li>
+					<li>Gestión del tiempo</li>
+					<li>Organización de su trabajo</li>
+					<li>Conocimientos de los requerimientos internos de la Norma ISO 9001:2015</li>
+					<li>Excelente resolución de problemas y habilidades analíticas</li>
+					<li>Autogestión e independencia</li>
+					</ul>
+					<ul><h6>Conocimientos Excluyentes:</h6>
+					<li>Conocimiento y experiencia en el uso de tecnologías de Microsoft y desarrollo de aplicaciones web.</li>
+					<li>MVC 4.5</li>
+					<li>C#</li>
+					<li>Javascript - Jquery - Ajax</li>
+					<li>Entity Framework - LINQ</li>
+					<li>Inyección de Dependencias</li>
+					<li>MongoDB NoSQL- Postgresql</li>
+					<li>REST - Soap API - Web Services - JSON - XML</li>
+					<li>HTML5, CSS3 - Bootstrap</li>
+					<li>Dominio del inglés oral y escrito.Intermedio/ avanzado</li>
+					</ul> 
+					
+					<ul><h6>Otros conocimientos deseables: </h6>
+					<li>Unit test</li>
+					<li>SeriLog</li>
+					<li>API MSMQ</li>
+					<li>AngularJS / Node.JS,</li>
+					<li>SCRUM, metodologías ágiles</li>
+					<li>GIT</li>
+					<li>Razor views</li>
+					<li>Vue JS</li>
+					</ul>
+					
+					
+					<ul><h6>Beneficios</h6>
+					<li>Vacaciones: Antigüedad de 2 años - 1 semana adicional de vacaciones.</li>
+					<li>Cumpleaños: Día libre de cumpleaños.</li>
+					<li>Días extras: Los feriados que caen los fines de semana, se pueden tomar en otra fecha. Estos días pueden ser elegidos.</li>
+					<li>Modalidad de trabajo: 100% Home Office (opcional).</li>
+					<li>Clases de inglés dos veces por semana en horarios de oficina. Presenciales en la oficina, con una profesora de inglés o la opción de sumarse a las clase online (por la situación actual de la pandemia).</li>
+					<li>Obra social : OSDE</li>
+					<li>Beneficios extras por empresa:
+					<ul>
+					<li>ÓPTICA
+					<li>MEDICAMENTOS: 
+					<li>COSEGURO DE URG: 
+					<li>GYM
+					</ul>
+					</li>
+					<li>Herramientas de trabajo: computadora, auriculares, mouse y mochila!</li>
+					<li>Viandas a domicilio.</li>
+					</ul> 
+
+			   </div>							
+			</div>
+		</div>	
+		
+		
+		
+		
+		
+		
 		
 		<div class="row ">
 			 <div class="col-lg-12 col-md-12 col-xs-12">
