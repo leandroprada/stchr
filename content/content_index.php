@@ -1043,7 +1043,7 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
                 </div>
               </div>
             </div>
-          </div>
+          </div>   
 		   
 		  
 		   <div class="col-lg-3 col-md-6 col-xs-12">
