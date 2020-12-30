@@ -1044,6 +1044,60 @@ Adem&aacute;s con nuestro cursos de capacitaci&oacute;n te compartimos nuestra e
               </div>
             </div>
           </div>
+		  
+		   <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team8.png" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Mat&iacute;as Gutierrez</h4>
+                  <p>Instructor Desarollo Web Frontend. Full-stack Java Dev</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="https://www.facebook.com/Infostchr-675557912900923/" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/infostchr"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y Selección de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/matias-gutierrez-27822797/" target="_blank"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		   <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team5.png" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Susana Bechara</h4>
+                  <p>Instructora Selección IT. Headhunter</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="https://www.facebook.com/Infostchr-675557912900923/" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/infostchr"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y Selección de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/susanabechara/" target="_blank"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>               
+            </div>
+          </div>
+		  
+		   <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="single-team">
+              <img src="img/team/team7.png" alt="">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Anthony Trillo</h4>
+                  <p>Instructor Selección IT Avanzado. Full-stack PHP Dev</p>
+                  <ul class="social-list">
+                    <li class="facebook"><a href="https://www.facebook.com/Infostchr-675557912900923/" target="_blank"><i class="lni-facebook-filled"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/infostchr"><i class="lni-twitter-filled"></i></a></li>
+                    <li class="google-plus"><a href="mailto:infostchr@gmail.com?subject=Contacto desde tu web: Consulta Búsquedas y Selección de Personal" target="_blank"><i class="lni-google-plus"></i></a></li>
+                    <li class="linkedin"><a href="linkedin.com/in/anthonytrillo/" target="_blank"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-lg-3 col-md-6 col-xs-12">
             <div class="single-team">

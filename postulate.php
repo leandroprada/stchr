@@ -313,30 +313,30 @@
 			<div class="col-lg-12 col-md-12 col-xs-12">
 				<div class="justify-content-left">
 						<h6>Descripci&oacute;n del empleo:</h6>
-						<p class="section-subtitle">Experiencia de 2 o 3 años en puestos similares (Semi Sr). En sistemas de base de datos. Trabajo con Sistemas de control de versiones.</p>
+						<p class="section-subtitle">Experiencia de 2 o 3 a&ntilde;os en puestos similares (Semi Sr). En sistemas de base de datos. Trabajo con Sistemas de control de versiones.</p>
 
  
 
 					<ul><h6>Actitudes y/o aptitudes </h6>
-					<li>Análisis y resolución de problemas</li>
-					<li>Orientación hacia los resultados y el cliente</li>
-					<li>Gestión del tiempo</li>
-					<li>Organización de su trabajo</li>
+					<li>An&aacute;lisis y resoluci&oacute;n de problemas</li>
+					<li>Orientaci&oacute;n hacia los resultados y el cliente</li>
+					<li>Gesti&oacute;n del tiempo</li>
+					<li>Organizaci&oacute;n de su trabajo</li>
 					<li>Conocimientos de los requerimientos internos de la Norma ISO 9001:2015</li>
-					<li>Excelente resolución de problemas y habilidades analíticas</li>
-					<li>Autogestión e independencia</li>
+					<li>Excelente resoluci&oacute;n de problemas y habilidades anal&iacute;ticas</li>
+					<li>Autogesti&oacute;n e independencia</li>
 					</ul>
 					<ul><h6>Conocimientos Excluyentes:</h6>
-					<li>Conocimiento y experiencia en el uso de tecnologías de Microsoft y desarrollo de aplicaciones web.</li>
+					<li>Conocimiento y experiencia en el uso de tecnolog&iacute;as de Microsoft y desarrollo de aplicaciones web.</li>
 					<li>MVC 4.5</li>
 					<li>C#</li>
 					<li>Javascript - Jquery - Ajax</li>
 					<li>Entity Framework - LINQ</li>
-					<li>Inyección de Dependencias</li>
+					<li>Inyecci&oacute;n de Dependencias</li>
 					<li>MongoDB NoSQL- Postgresql</li>
 					<li>REST - Soap API - Web Services - JSON - XML</li>
 					<li>HTML5, CSS3 - Bootstrap</li>
-					<li>Dominio del inglés oral y escrito.Intermedio/ avanzado</li>
+					<li>Dominio del ingl&eacute;s oral y escrito.Intermedio/ avanzado</li>
 					</ul> 
 					
 					<ul><h6>Otros conocimientos deseables: </h6>
@@ -344,7 +344,7 @@
 					<li>SeriLog</li>
 					<li>API MSMQ</li>
 					<li>AngularJS / Node.JS,</li>
-					<li>SCRUM, metodologías ágiles</li>
+					<li>SCRUM, metodolog&iacute;as &aacute;giles</li>
 					<li>GIT</li>
 					<li>Razor views</li>
 					<li>Vue JS</li>
@@ -352,15 +352,15 @@
 					
 					
 					<ul><h6>Beneficios</h6>
-					<li>Vacaciones: Antigüedad de 2 años - 1 semana adicional de vacaciones.</li>
-					<li>Cumpleaños: Día libre de cumpleaños.</li>
-					<li>Días extras: Los feriados que caen los fines de semana, se pueden tomar en otra fecha. Estos días pueden ser elegidos.</li>
+					<li>Vacaciones: Antigüedad de 2 a&ntilde;os - 1 semana adicional de vacaciones.</li>
+					<li>Cumplea&ntilde;os: D&iacute;a libre de cumplea&ntilde;os.</li>
+					<li>D&iacute;as extras: Los feriados que caen los fines de semana, se pueden tomar en otra fecha. Estos d&iacute;as pueden ser elegidos.</li>
 					<li>Modalidad de trabajo: 100% Home Office (opcional).</li>
-					<li>Clases de inglés dos veces por semana en horarios de oficina. Presenciales en la oficina, con una profesora de inglés o la opción de sumarse a las clase online (por la situación actual de la pandemia).</li>
+					<li>Clases de ingl&eacute;s dos veces por semana en horarios de oficina. Presenciales en la oficina, con una profesora de ingl&eacute;s o la opci&oacute;n de sumarse a las clase online (por la situaci&oacute;n actual de la pandemia).</li>
 					<li>Obra social : OSDE</li>
 					<li>Beneficios extras por empresa:
 					<ul>
-					<li>ÓPTICA
+					<li>&Oacute;PTICA
 					<li>MEDICAMENTOS: 
 					<li>COSEGURO DE URG: 
 					<li>GYM
@@ -1041,18 +1041,18 @@
 			<div class="col-lg-12 col-md-12 col-xs-12">
 				<div class="justify-content-left">
 						<h6>Descripci&oacute;n del empleo:</h6>
-						<p class="section-subtitle">Estamos buscando un desarrollador front-end al que le apasiona desarrollar aplicaciones web robustas y galardonadas con Angular. Aplicará sus habilidades con el marco para crear proyectos increíbles con clientes más grandes y conocidos, gigantes de la tecnología y la innovación.</p>
+						<p class="section-subtitle">Estamos buscando un desarrollador front-end al que le apasiona desarrollar aplicaciones web robustas y galardonadas con Angular. Aplicar&aacute; sus habilidades con el marco para crear proyectos incre&iacute;bles con clientes m&aacute;s grandes y conocidos, gigantes de la tecnolog&iacute;a y la innovaci&oacute;n.</p>
 					<ul><h6>Sobre el rol:</h6>
-					<li>Te unirás a un equipo de más de 270 personas que trabajan juntos en oficinas internacionales para crear trabajos galardonados para marcas líderes en el mundo.</li>
-					<li>Reunirá interfaces innovadoras y otros elementos interactivos que ocasionalmente necesitará construir desde cero.</li>
+					<li>Te unir&aacute;s a un equipo de m&aacute;s de 270 personas que trabajan juntos en oficinas internacionales para crear trabajos galardonados para marcas l&iacute;deres en el mundo.</li>
+					<li>Reunir&aacute; interfaces innovadoras y otros elementos interactivos que ocasionalmente necesitar&aacute; construir desde cero.</li>
 					</ul>
 
 
 					<ul><h6>Requisitos:</h6>
-					<li>3/4 años de experiencia como Angular Developer
-					<li>Estar actualizado con los últimos estándares en HTML, CSS y JS / TS.</li>
-					<li>Inglés fluido</li>
-					<li>Comprende los beneficios de utilizar la verificación de tipos estáticos </li>
+					<li>3/4 a&ntilde;os de experiencia como Angular Developer
+					<li>Estar actualizado con los &uacute;ltimos est&aacute;ndares en HTML, CSS y JS / TS.</li>
+					<li>Ingl&eacute;s fluido</li>
+					<li>Comprende los beneficios de utilizar la verificaci&oacute;n de tipos est&aacute;ticos </li>
 					<li>Tener  experiencia trabajando con grandes plataformas</li>
 					<li>Estar familiarizado con las SPA, los sitios renderizados del lado del servidor y las API integradas.</li>
 					</ul>
@@ -1068,7 +1068,7 @@
 					<li>Revisi&oacute;n Salarial cada 3 meses</li>
 					<li>Capacitaciones constantes</li>
 					<li>Plus adicional (Luz-Internet)</li>
-					<li>Y muchos más...</li>
+					<li>Y muchos m&aacute;s...</li>
 					</ul> 
 
 					
