@@ -1,3 +1,7 @@
+body {
+	background-color: #43464B;
+}
+
 strong {
   font-weight: bold;
 }
@@ -12,8 +16,8 @@ strong {
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
-  font-family: Verdana, sans-serif;
-  font-size: 12px;
+  font-family: PT+Sans+Narrow, sans-serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 50px;
   padding: 20px 50px 20px;
@@ -21,6 +25,7 @@ strong {
   transition: all 20ms ease-out;
   min-width: 250px;
   vertical-align: top;
+  text-align: center;
 }
 .button:hover, .button:focus {
   background: #f2f2f2;
